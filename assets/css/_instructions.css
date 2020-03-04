@@ -1,0 +1,74 @@
+.pp-incts-breadcrumbs-sec{
+	padding: 10px 0;
+}
+.pp-instr-brdcmb-inner h2{
+	font-size: 30px;
+	margin-bottom: 15px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+.pp-instr-brdcmb-inner ul{
+	margin-bottom: 15px;
+}
+.pp-instr-brdcmb-inner ul li{
+	display: inline-block;
+	padding-left: 6px;
+	padding-right: 6px;
+	position: relative;
+}
+.pp-instr-brdcmb-inner ul li:before{
+	content: "";
+	height: 17px;
+	width: 2px;
+	position: absolute;
+	background: #000;
+	top: 20%;
+	left: 0;
+}
+.pp-instr-brdcmb-inner ul li:first-child:before{
+	content: none;
+}
+.pp-instr-brdcmb-inner ul li:first-child{
+	padding-left: 22px;
+	position: relative;
+}
+.pp-instr-brdcmb-inner ul li:last-child{
+	padding-right: 12px;
+}
+.pp-instr-brdcmb-inner ul li a{
+	font-size: 18px;
+	text-decoration: underline;
+	color: #000;
+}
+/*.pp-instr-brdcmb-inner ul li:first-child a:before{
+	content: "\f30a";
+	font-family: "Font Awesome 5 Free";
+	position: absolute;
+	top: 50%;
+	left: 0;
+}*/
+
+.pp-instr-des{
+	padding-bottom: 25px;
+}
+.pp-instr-des-inr{
+	padding-right: 18px;
+}
+.pp-instr-des-inr h4{
+	font-size: 22px;
+	margin-bottom: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.pp-instr-des-inr strong{
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+.pp-instr-img-sec-inr{
+	max-width: 700px;
+	width: 100%;
+	margin: 0 auto;
+}
