@@ -1,0 +1,26 @@
+.dft-btn{
+	padding: 2px;
+    font-weight: 600;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 22px;
+    color: #fff;
+    display: inline-block;
+    vertical-align: baseline;
+    text-align: center;
+    text-transform: uppercase;
+    background: #569abc;
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.dft-btn span {
+   display: block;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 100%;
+   border: 2px solid #fff;
+   border-radius: 5px; 
+   padding: 10px 20px;
+}

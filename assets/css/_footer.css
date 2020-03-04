@@ -43,10 +43,12 @@ footer.footer-wrp{
 .copyright{
 	font-size: 12px;
 	padding-top: 10px;
+	font-weight: 500;
 }
 .webby{
 	font-size: 12px;
 	font-family: "Helvetica";
+	font-weight: 500;
 }
 .webby a{
 	color: #fff;

@@ -297,3 +297,9 @@ footer.footer-wrp{
 .hdr-rgt h2{
 	color: #006AB6;
 }
+
+/*color sky*/
+.cleaning-convenient-hdr h2,
+.cleaning-convenient-item-des h6{
+	color: #006ab6;
+}
