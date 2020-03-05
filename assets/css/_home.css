@@ -1,6 +1,7 @@
 .cleaning-convenient-sec{
 	padding: 30px 0 10px;
 	text-align: center;
+	border-top: 2px solid #fff;
 }
 .sec-bg{
 	background-size: cover!important;
@@ -46,16 +47,17 @@
 	color: #0b396b;
 }
 
-.save-time-vdo video{
+.save-time-vdo iframe{
 	width: 100%;
 }
 
 
 .main-banner{
-	padding: 20px 0 20px;
+	padding: 20px 0 10px;
+	border-bottom: 2px solid #cccccc;
 }
 .bnr-lft-col{
-	max-width: 267px;
+	max-width: 370px;
 	color: #fff;
 }
 .bnr-offer-price span {
@@ -75,6 +77,7 @@
 	line-height: 82px;
 	position: relative;
 	font-weight: 600;
+	padding-left: 5px;
 }
 .bnr-offer-price strong sup {
     margin-top: 0;
@@ -84,4 +87,102 @@
     position: relative;
     top: -21px;
     left: -1px;
+}
+
+.bnr-offer-price small{
+	font-weight: 600;
+	display: block;
+	font-size: 14px;
+	line-height: 16px;
+	padding-left: 74px;
+	padding-bottom: 10px;
+}
+
+.bnr-btn{
+	padding-left: 14px;
+	padding-bottom: 15px;
+}
+
+.bnr-mastercard-imgs{
+	padding-left: 30px;
+	padding-bottom: 10px;
+}
+.bnr-mastercard-imgs img{
+	max-width: 40px;
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+.bnr-risk-free-img {
+    padding-left: 47px;
+    padding-bottom: 10px;
+}
+.bonus-bag-img-bx{
+	display: flex;
+	align-items: center;
+}
+
+.bonus-bag-img-bx p{
+	margin-bottom: 0;
+	text-shadow: 0 0 10px black;
+	color: #00bcc3;
+	font-size: 20px;
+    line-height: 1;
+    font-weight: 800;
+}
+
+.bnr-rgt-col div h2{
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 1;
+	font-size: 45px;
+	margin-bottom: 10px;
+	position: relative;
+	left: -50px;
+}
+.content-move-rgt{
+	text-align: right;
+}
+
+.bnr-rgt-col figcaption {
+    display: inline-block;
+    vertical-align: baseline;
+    color: white;
+    position: relative;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    background: #006ab6;
+    border-radius: 100%;
+    font-size: 16px;
+    padding: 25px 35px;
+    z-index: 1;
+    margin-top: -25px;
+    right: -15px;
+    text-transform: uppercase;
+}
+.bnr-rgt-col figure img{
+	position: relative;
+	z-index: 2;
+}
+.bnr-money-back-sologan strong {
+    display: inline-block;
+    vertical-align: baseline;
+    text-shadow: 0 0 10px black;
+    color: #00bcc3;
+    text-align: center;
+    font-size: 22px;
+    line-height: 21px;
+    text-transform: uppercase;
+    padding-right: 25px;
+}
+
+.bnr-btm-txt strong{
+	text-align: left;
+	display: block;
+	color: #fff;
+	font-size: 22px;
+    line-height: 1;
+    margin-left: -99px;
 }
