@@ -40,6 +40,8 @@
 	font-size: 18px;
 	text-decoration: underline;
 	color: #000;
+	font-family: 'helvetica';
+	font-weight: 300;
 }
 .pp-instr-brdcmb-inner ul li:first-child a i{
 	position: absolute;
@@ -60,12 +62,11 @@
 	padding-right: 18px;
 }
 .pp-instr-des-inr h4{
-	font-size: 24px;
+	font-size: 22px;
 	margin-bottom: 10px;
-	font-family: 'Helvetica', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
 	text-transform: uppercase;
-	color: #000;
 }
 .pp-instr-des-inr strong{
 	font-size: 16px;
