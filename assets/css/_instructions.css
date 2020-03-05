@@ -23,7 +23,7 @@
 	position: absolute;
 	background: #000;
 	top: 20%;
-	left: 0;
+	left: -2px;
 }
 .pp-instr-brdcmb-inner ul li:first-child:before{
 	content: none;
@@ -34,19 +34,24 @@
 }
 .pp-instr-brdcmb-inner ul li:last-child{
 	padding-right: 12px;
+	position: relative;
 }
 .pp-instr-brdcmb-inner ul li a{
 	font-size: 18px;
 	text-decoration: underline;
 	color: #000;
 }
-/*.pp-instr-brdcmb-inner ul li:first-child a:before{
-	content: "\f30a";
-	font-family: "Font Awesome 5 Free";
+.pp-instr-brdcmb-inner ul li:first-child a i{
 	position: absolute;
-	top: 50%;
+	top: 2px;
 	left: 0;
-}*/
+}
+.pp-instr-brdcmb-inner ul li:last-child a i{
+	position: absolute;
+	top: 5px;
+	right: 0;
+}
+
 
 .pp-instr-des{
 	padding-bottom: 25px;
@@ -58,7 +63,7 @@
 	font-size: 22px;
 	margin-bottom: 10px;
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
+	font-weight: 600;
 	text-transform: uppercase;
 }
 .pp-instr-des-inr strong{
@@ -71,4 +76,77 @@
 	max-width: 700px;
 	width: 100%;
 	margin: 0 auto;
+}
+
+
+.pp-instr-list-item-inr{
+	padding: 30px 30px 40px 25px;
+	border: 1px solid #000;
+	border-radius: 25px;
+	max-width: 930px;
+    width: 100%;
+    margin: 0 auto;
+}
+.pp-instr-list-item-inr ul li{
+	padding-left: 25px;
+	padding-bottom: 10px;
+	font-weight: 700;
+	background: url('../images/pp-instr-list-item.png');
+	background-size: 18px 20px;
+	background-position: 0 5px;
+	background-repeat: no-repeat;
+}
+
+.pp-instr-faq-sec{
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+.pp-instr-faq-inr{
+	padding: 25px 30px 40px 25px;
+	border: 1px solid #000;
+	border-radius: 25px;
+	max-width: 930px;
+	width: 100%;
+	margin: 0 auto;
+}
+.pp-instr-faq-inr h2{
+	font-size: 24px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+.pp-instr-faq-des{
+	padding-bottom: 15px;
+}
+.pp-instr-faq-des strong{
+	font-weight: 700;
+}
+.pp-instr-faq-des span{
+	display: block;
+}
+
+.pp-instr-faq-link{
+	text-align: center;
+}
+.pp-instr-faq-link a{
+	color: #000;
+	text-decoration: underline;
+	margin-bottom: 18px;
+}
+.pp-instr-faq-link button{
+	display: block;
+	margin: 0 auto;
+	margin-top: 18px;
+	background: #00bcc3;
+	border: 1px solid #000;
+	padding: 12px 100px;
+	color: #fff;
+	font-size: 22px;
+	text-transform: uppercase;
+	font-weight: 700;
+	cursor: pointer;
+}
+.pp-instr-faq-link button:hover{
+	background: #066b6f;
 }
