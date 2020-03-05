@@ -28,8 +28,8 @@ customer-review-sec-wrp
 	color: #000;
 	font-weight: 700;
 	margin-top: 5px;
-	margin-bottom: 12px;
-	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 14px;
+	font-family: "Helvetica";
 }
 .customer-review-dsc span{
 	display: inline-block;
@@ -46,6 +46,7 @@ customer-review-sec-wrp
 	display: inline-block;
 	vertical-align: baseline;
 	font-weight: 500;
+	font-family: "Helvetica";
 }
 .customer-review-rgt{
 	width: 40%;
@@ -68,11 +69,13 @@ customer-review-sec-wrp
 	font-weight: 700;
 	text-transform: uppercase;
 	text-align: center;
+	font-family: "Helvetica";
 }
 .cr-offer-lft-tp strong span{
 	display: block;
 	font-size: 22px;
 	line-height: 24px;
+	font-family: "Helvetica";
 }
 .cr-offer-lft-tp > span{
 	display:block;
@@ -81,15 +84,16 @@ customer-review-sec-wrp
 	line-height: 22px;
 	font-weight: 700;
 	text-transform: uppercase;
-	margin-bottom: 5px;
+	margin-bottom: 7px;
 }
 .cr-offer-lft-tp a.hdr-order-btn{
 	width: 200px;
 	margin: 0 auto;
 }
-a.hdr-order-btn:hover{
-	background: #569abc !important;
+.cr-offer-lft-tp a.hdr-order-btn span:hover{
+	border-color:#569abc; 
 }
+
 .pp-payment-item{
 	max-width: 175px;
 	width: 100%;
@@ -138,6 +142,7 @@ a.hdr-order-btn:hover{
 	text-transform: uppercase;
 	text-align: center;
 	padding-top: 15px;
+	font-family: "Helvetica";
 }
 .pp-bonus-bag{
 	display: flex;
@@ -152,7 +157,7 @@ a.hdr-order-btn:hover{
 }
 .pp-bonus-bag-title p{
 	font-size: 18px;
-	line-height: 31px;
+	line-height: 28px;
 	color: #00bcc3;
 	font-weight: 800;
 	margin: 0;
@@ -183,18 +188,19 @@ a.hdr-order-btn:hover{
 	line-height: 20px;
 	font-weight: 600;
 	color: #000;
-	padding: 10px 30px 10px 10px;
+	padding: 13px 30px 15px 10px;
 	position: relative;
 	cursor: pointer;
 	transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
+	font-family: "Helvetica";
 }
 .faq-accoordion span em{
 	font-style: normal;
 }
 .faq-accoordion span em:hover{
-	text-decoration: underline;
+	border-bottom: 2px solid#000;
 }
 .faq-accoordion span:before{
     content: '\f105';
@@ -203,7 +209,7 @@ a.hdr-order-btn:hover{
     font-variant: normal;
     text-decoration: inherit;
     color: #000;
-    font-size: 18px;
+    font-size: 24px;
     position: absolute;
     top: 14px;
     right: 8px;
@@ -215,8 +221,122 @@ a.hdr-order-btn:hover{
 	font-size: 18px;
 	line-height: 24px;
 	margin: 0;
+	font-family: "Helvetica";
 }
 .ac-box-title{
 	display: none;
 	margin: 15px 10px;
+}
+
+.customer-review-wrp .pp-instr-brdcmb-inner ul{
+	margin-bottom: 0;
+}
+.faq-accoordion-wrp{
+	padding-top: 15px;
+}
+
+
+
+@media(max-width: 1199px){
+	.customer-review-lft {
+	    margin-left: 0;
+	}
+	.customer-review-rgt{
+		margin-right: 0;
+	}
+	.pp-offer-product-size{
+		width: 210px;
+	}
+	.cr-offer-lft-tp strong {
+	    font-size: 46px;
+	    line-height: 48px;
+	}
+}
+
+@media(max-width: 991px){
+	.customer-review-rgt {
+	    width: 100%;
+	    padding-left: 0;
+	}
+	.customer-review-lft {
+	    width: 100%;
+	}
+	.customer-review-offer-wrp {
+	    padding-top: 30px;
+	}
+	.cr-offer-lft-tp-inr{
+		max-width: 400px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.cr-offer-lft-tp strong {
+	    font-size: 44px;
+	    line-height: 46px;
+	}
+	.cr-offer-lft-tp strong sup{
+		left: 10px;
+	}
+
+}
+
+@media(max-width: 767px){
+	.cr-offer-lft-tp strong {
+	    font-size: 42px;
+	    line-height: 44px;
+	}
+	.cr-offer-lft-tp > span{
+		font-size: 18px;
+	}
+}
+
+@media(max-width: 575px){
+	.cr-offer-lft-tp strong {
+	    font-size: 40px;
+	    line-height: 42px;
+	}
+
+}
+
+@media(max-width: 479px){
+	.pp-offer-product-inr {
+	    float: left;
+	    width: 100%;
+	}
+	.pp-offer-product-size {
+	    width: 100%;
+	    max-width: 230px;
+	    margin: 0 auto;
+	    margin-top: -15px;
+	}
+	.cr-offer-lft-tp {
+	    width: 100%;
+	    float: left;
+	    text-align: center;
+	    padding-top: 0;
+	    padding-bottom: 20px;
+	}
+	.pp-bonus-bag {
+	    display: inline-block;
+	    justify-content: center;
+	    align-items: center;
+	    text-align: center;
+	    padding-top: 20px;
+	}
+	.pp-bonus-bag-title {
+	    float: left;
+	    width: 100%;
+	    padding-top: 10px;
+	}
+	.pp-bonus-bag-img {
+	    float: left;
+	    width: 100%;
+	}
+	.pp-bonus-bag-title p br{
+		display: none;
+	}
+
+}
+
+@media(max-width: 359px){
+
 }
