@@ -53,7 +53,7 @@
 
 
 .main-banner{
-	padding: 20px 0 20px;
+	padding: 20px 0 10px;
 	border-bottom: 2px solid #cccccc;
 }
 .bnr-lft-col{
@@ -77,6 +77,7 @@
 	line-height: 82px;
 	position: relative;
 	font-weight: 600;
+	padding-left: 5px;
 }
 .bnr-offer-price strong sup {
     margin-top: 0;
