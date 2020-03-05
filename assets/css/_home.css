@@ -49,3 +49,39 @@
 .save-time-vdo video{
 	width: 100%;
 }
+
+
+.main-banner{
+	padding: 20px 0 20px;
+}
+.bnr-lft-col{
+	max-width: 267px;
+	color: #fff;
+}
+.bnr-offer-price span {
+    display: block;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 68px;
+    padding-bottom: 2px;
+}
+.bnr-offer-price{
+		font-family: "Helvetica";
+}
+.bnr-offer-price strong{
+	font-size: 80px;
+	line-height: 82px;
+	position: relative;
+	font-weight: 600;
+}
+.bnr-offer-price strong sup {
+    margin-top: 0;
+    font-size: 75%;
+    line-height: 0;
+    display: inline;
+    position: relative;
+    top: -21px;
+    left: -1px;
+}
