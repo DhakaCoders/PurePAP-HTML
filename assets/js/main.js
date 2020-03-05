@@ -32,6 +32,19 @@ $('.fancybox').fancybox({
 
 }
 
+/*
+----------------------
+ Accordion Js
+----------------------
+*/
+
+$('.faq-accoordion-wrp').on('click', '.faq-accoordion-cp', function() {
+    $('.faq-accoordion').find('.ac-box-title').stop().slideUp();
+    $(this).toggleClass('active');
+    $(this).parent().siblings().find('span').removeClass('active');
+    $(this).closest('.faq-accoordion').find('.ac-box-title').stop().slideToggle();
+});
+
 
 /**
 Responsive on 767px
