@@ -1,0 +1,25 @@
+.pp-how-it-work-des-left{
+	float: left;
+	width: 60%;
+	padding-bottom: 50px;
+}
+.pp-how-it-work-des-right{
+	float: right;
+	width: 40%;
+}
+
+.pp-how-it-work-des-inr{
+	padding-bottom: 15px;
+}
+.pp-how-it-work-des-inr strong{
+	font-weight: 700;
+	font-size: 18px;
+}
+.pp-how-it-work-des-inr span{
+	font-size: 16px;
+}
+.pp-how-it-work-des-inr p{
+	margin: 0;
+	margin-top: 20px;
+	font-size: 16px;
+}
