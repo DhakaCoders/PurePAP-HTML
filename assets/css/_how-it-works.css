@@ -16,14 +16,19 @@
 .pp-how-it-work-des-inr strong{
 	font-weight: 700;
 	font-size: 18px;
+	font-family: 'arial', sans-serif;
 }
 .pp-how-it-work-des-inr span{
-	font-size: 16px;
+	font-size: 18px;
+	font-family: 'arial', sans-serif;
+	color: #333;
 }
 .pp-how-it-work-des-inr p{
 	margin: 0;
 	margin-top: 20px;
-	font-size: 16px;
+	font-size: 18px;
+	font-family: 'arial', sans-serif;
+	color: #333;
 }
 .pp-how-it-work-vdo{
 	overflow: hidden;
