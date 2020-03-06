@@ -1,5 +1,5 @@
 .pp-incts-breadcrumbs-sec{
-	padding: 10px 0;
+	padding: 10px 0 0;
 }
 .pp-instr-brdcmb-inner h2{
 	font-size: 28px;
@@ -39,7 +39,7 @@
 .pp-instr-brdcmb-inner ul li a{
 	font-size: 18px;
 	text-decoration: underline;
-	color: #000;
+	color: #333;
 	font-family: 'arial', sans-serif;
 	font-weight: 300;
 }
@@ -56,7 +56,7 @@
 
 
 .pp-instr-des{
-	padding-bottom: 25px;
+	padding-bottom: 15px;
 }
 .pp-instr-des-inr{
 	padding-right: 38px;
@@ -85,7 +85,7 @@
 
 
 .pp-instr-list-item-inr{
-	padding: 30px 30px 40px 25px;
+	padding: 30px 30px 30px 25px;
 	border: 1px solid #000;
 	border-radius: 25px;
 	max-width: 930px;
