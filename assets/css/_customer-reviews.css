@@ -4,8 +4,8 @@ customer-review-sec-wrp
 -------------------
 */
 .customer-review-sec-wrp{
-	padding-bottom: 35px;
-	padding-top: 15px;
+	padding-bottom: 25px;
+	padding-top: 10px;
 }
 .customer-review-lft{
 	width: 60%;
@@ -29,7 +29,7 @@ customer-review-sec-wrp
 	font-weight: 700;
 	margin-top: 5px;
 	margin-bottom: 14px;
-	font-family: "Helvetica";
+	font-family: "arial";
 }
 .customer-review-dsc span{
 	display: inline-block;
@@ -46,7 +46,7 @@ customer-review-sec-wrp
 	display: inline-block;
 	vertical-align: baseline;
 	font-weight: 500;
-	font-family: "Helvetica";
+	font-family: "arial";
 }
 .customer-review-rgt{
 	width: 40%;
@@ -58,24 +58,24 @@ customer-review-sec-wrp
     width: 50%;
     float: left;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 25px;
 }
 .cr-offer-lft-tp strong{
 	display: inline-block;
 	vertical-align: baseline;
 	font-size: 48px;
-	line-height: 50px;
+	line-height: 48px;
 	color: #00bcc3;
 	font-weight: 700;
 	text-transform: uppercase;
 	text-align: center;
-	font-family: "Helvetica";
+	font-family: "arial";
 }
 .cr-offer-lft-tp strong span{
 	display: block;
 	font-size: 22px;
 	line-height: 24px;
-	font-family: "Helvetica";
+	font-family: "arial";
 }
 .cr-offer-lft-tp > span{
 	display:block;
@@ -89,6 +89,7 @@ customer-review-sec-wrp
 .cr-offer-lft-tp a.hdr-order-btn{
 	width: 200px;
 	margin: 0 auto;
+	height: 60px;
 }
 .cr-offer-lft-tp a.hdr-order-btn span:hover{
 	border-color:#569abc; 
@@ -142,26 +143,29 @@ customer-review-sec-wrp
 	text-transform: uppercase;
 	text-align: center;
 	padding-top: 15px;
-	font-family: "Helvetica";
+	font-family: "arial";
 }
 .pp-bonus-bag{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
-.pp-bonus-bag-img{
-	float: left;
+.pp-bonus-bag-img {
+    float: left;
+    max-width: 185px;
+    width: 100%;
 }
 .pp-bonus-bag-title{
 	float: left;
 }
-.pp-bonus-bag-title p{
-	font-size: 18px;
-	line-height: 28px;
-	color: #00bcc3;
-	font-weight: 800;
-	margin: 0;
-	text-transform: uppercase;
+.pp-bonus-bag-title p {
+    font-size: 18px;
+    line-height: 27px;
+    color: #00bcc3;
+    font-weight: 800;
+    margin: 0;
+    text-transform: uppercase;
+    padding-top: 3px;
 }
 .pp-bonus-bag-title p span{
 	font-size: 22px !important;
@@ -194,7 +198,7 @@ customer-review-sec-wrp
 	transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
-	font-family: "Helvetica";
+	font-family: "arial";
 }
 .faq-accoordion span em{
 	font-style: normal;
@@ -221,7 +225,7 @@ customer-review-sec-wrp
 	font-size: 18px;
 	line-height: 24px;
 	margin: 0;
-	font-family: "Helvetica";
+	font-family: "arial";
 }
 .ac-box-title{
 	display: none;
@@ -328,8 +332,10 @@ customer-review-sec-wrp
 	    padding-top: 10px;
 	}
 	.pp-bonus-bag-img {
-	    float: left;
+	    float: none;
 	    width: 100%;
+	    margin: 0 auto;
+	    text-align: center;
 	}
 	.pp-bonus-bag-title p br{
 		display: none;
