@@ -293,8 +293,10 @@ footer.footer-wrp{
 	background: #006AB6;
 }
 
-
-.hdr-rgt h2{
+/*color blue*/
+.hdr-rgt h2,
+.unbeatable-competition-sec h3,
+.competitors-sec-hdr h3{
 	color: #006AB6;
 }
 
@@ -302,4 +304,9 @@ footer.footer-wrp{
 .cleaning-convenient-hdr h2,
 .cleaning-convenient-item-des h6{
 	color: #006ab6;
+}
+
+/*color sky 2*/
+.specs-item strong{
+	color: #25b1dc;
 }

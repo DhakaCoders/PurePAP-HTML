@@ -186,3 +186,49 @@
     line-height: 1;
     margin-left: -99px;
 }
+
+.unbeatable-competition-sec h3{
+
+}
+.unbeatable-competition-sec-list ul{
+	display: flex;
+	align-items: center;
+}
+.unbeatable-competition-sec-list ul li{
+	width: 27%;
+}
+.unbeatable-competition-sec-list ul li:nth-child(2){
+	width: 46%;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.specs-left{
+	text-align: right;
+}
+.specs-item{
+	display: flex;
+	align-items: center;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.specs-left .specs-item{
+	    justify-content: flex-end;
+}
+.specs-left .specs-item .specs-item-icon{
+	order: 2;
+}
+
+.specs-item strong{
+	font-size: 18px;
+	line-height: 22px;
+}
+.specs-mid{
+	text-align: center;
+}
+
+.specs-mid-img img{
+	width: 100%;
+}
