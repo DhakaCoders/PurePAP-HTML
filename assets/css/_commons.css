@@ -21,7 +21,7 @@ a, a:hover, a:focus, button:hover, button:focus{
 
 body {
     background: #fff;
-    color: #000000;
+    color: #333;
     font-size: 17px;
     line-height: 24px;
     font-family: 'Montserrat', sans-serif;
@@ -288,10 +288,19 @@ blue bg
 a.hdr-order-btn{
 	background: #569ABC;
 }
-
-footer.footer-wrp{
+footer.footer-wrp,
+.offer-sologan-bar{
 	background: #006AB6;
 }
+
+/*
+sky bg
+*/
+
+.select-offer-boxs-sec-con-hdr{
+	background: #25b1dc;
+}
+
 
 /*color blue*/
 .hdr-rgt h2,
@@ -307,6 +316,7 @@ footer.footer-wrp{
 }
 
 /*color sky 2*/
-.specs-item strong{
+.specs-item strong,
+.germs-lft-des p{
 	color: #25b1dc;
 }
