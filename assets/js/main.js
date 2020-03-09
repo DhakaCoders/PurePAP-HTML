@@ -9,6 +9,10 @@ if($('.mHc').length){
   $('.mHc').matchHeight();
 };
 
+if($('.tbody-td').length){
+  $('.tbody-td, .tfooter-td, .tfooter-td').matchHeight();
+};
+
 //$('[data-toggle="tooltip"]').tooltip();
 
 //banner animation

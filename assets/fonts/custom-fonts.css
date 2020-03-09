@@ -6,6 +6,23 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "Helvetica-Light";
+  src: url("Helvetica-Light/Helvetica-Light.woff") format("woff"),
+    url("Helvetica-Light/Helvetica-Light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica-Bold";
+  src: url("Helvetica-Bold/Helvetica-Bold.woff") format("woff"),
+    url("Helvetica-Bold/Helvetica-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 /*@font-face {
   font-family: "arial";
   src: url("arial/arial.woff") format("woff"),
