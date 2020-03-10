@@ -1,5 +1,5 @@
 .cleaning-convenient-sec{
-	padding: 30px 0 10px;
+	padding: 30px 0 0;
 	text-align: center;
 	border-top: 2px solid #fff;
 }
@@ -11,7 +11,10 @@
 .cleaning-convenient-items ul li{
 	float: left;
 	width: 25%;
-	padding: 0 20px;
+	padding: 0 20px 10px;
+}
+.cleaning-convenient-items ul li:nth-child(4n+1){
+	clear: left;
 }
 .cleaning-convenient-item-img{
 	padding-bottom: 20px;
@@ -265,7 +268,17 @@
 	z-index: 2;
 	margin: 0;
 }
-
+.germs-lft-des{
+	width: 50%;
+	padding-right: 10px;
+}
+.germs-lft-des .width-at-50{
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.germs-lft-des .width-at-50 img{
+	width: 100%;
+}
 .germs-lft-des figure{
 	max-width: 385px;
 	text-align: center;
@@ -321,6 +334,7 @@
 }
 .offer-sologan-bar p{
 	font-size: 20px;
+
 }
 
 
@@ -611,7 +625,9 @@ a.add-to-cart-btn.is-selected{
 .tbody-td:nth-child(1){
 	width: 40%;
 }
-
+.tbody-td strong{
+	display: none;
+}
 .thead{
 	color: #fff;
 	background: #de0000;
@@ -1079,4 +1095,414 @@ a.what-is-cvv2{
 	font-weight: normal;
 	  font-family: "Helvetica";
 	font-size: 18px;
+}
+
+
+
+
+@media(max-width: 1499px){
+
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+
+}
+
+@media(max-width: 1199px){
+	.germs-section{
+		background: transparent!important;
+	}
+	.germs-lft-des p{
+		max-width: 100%;
+	}
+	.germs-lft-des {
+	    width: 100%;
+	    padding-right: 0;
+	    padding-top: 20px;
+	}
+	.germs-lft-des figure {
+	    max-width: 385px;
+	    text-align: center;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	.germs-lft-des figcaption{
+		padding-top: 10px;
+	}
+	.germs-section{
+		padding-top: 30px;
+	}
+	.best-value-circle{
+		left: -18px;
+	}
+	
+
+}
+
+@media(max-width: 1023px){
+	.best-value-circle {
+	    left: -8px;
+	    top: 65px;
+	}
+}
+@media(max-width: 991px){
+	.hdr-rgt h2{
+		font-size: 23px;
+	}
+	.bnr-rgt-col div h2{
+		font-size: 33px;
+	}
+	.bnr-offer-price strong{
+		font-size: 63px;
+	}
+	.bnr-offer-price span {
+	    font-size: 32px;
+	    line-height: 40px;
+	    padding-left: 63px;
+	    padding-bottom: 0;
+	}
+	.cleaning-convenient-items ul li{
+		width: 50%;
+	}
+	.cleaning-convenient-items ul li:nth-child(4n+1) {
+	    clear: initial;
+	}
+	.cleaning-convenient-items ul li:nth-child(2n+1) {
+	    clear: left;
+	}
+	.save-time-sec-des{
+		padding-top: 30px;
+	}
+	.unbeatable-competition-sec-list ul li {
+	    width: 29%;
+	}
+	.unbeatable-competition-sec-list ul li:nth-child(2){
+		width: 42%;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.germs-section{
+		padding-top: 20px;
+	}
+	.germs-lft-des p{
+		font-size: 23px;
+	}
+	.specs-mid-img{
+		max-width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.select-offer-box{
+		width: 100%;
+	}
+	.select-offer-box-1{
+		padding-bottom: 65px;
+		position: relative;
+	}
+	.or-wrapper{
+		bottom: 3px;
+		top: auto;
+	}
+
+	
+}
+@media(max-width: 919px){
+	.competitors-sec-brainding-logo{
+		padding-left: 10%;
+	}
+}
+@media(max-width: 767px){
+	.hdr-lft,
+	.hdr-rgt {
+	    width: 100%;
+	    padding-right: 0;
+	}
+	.header-inr{
+		display: block;
+	}
+	.logo a{
+		max-width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+		display: table;
+		margin-bottom: 5px;
+	}
+	.hdr-rgt{
+		justify-content: center;
+	}
+	.humberger-menu-btn {
+	    text-align: center;
+	    cursor: pointer;
+	    padding: 0;
+	    margin-top: 0;
+	    width: 34px;
+	    height: 41px;
+	    position: absolute;
+	    left: 0;
+	    top: 50%;
+	    transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	    -webkit-transform: translateY(-50%);
+	}
+	.hdr-order-btn-xs{
+		position: absolute;
+	    right: 0;
+	    top: 50%;
+	    transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	    -webkit-transform: translateY(-50%);
+	}
+	.humberger-menu-btn strong{
+		padding-bottom: 10px;
+		font-size: 10px;
+		line-height: 12px;
+		text-transform: uppercase;
+		font-weight: 500;
+		display: block;
+		padding-top: 0;
+		padding-left: 0;
+	}
+	.humberger-menu-btn-lines{
+		width: 33px;
+		position: relative;
+		height: 20px;
+		margin-right: 0;
+		margin-left: auto;
+	}
+	.humberger-menu-btn-lines span{
+		position: absolute;
+		left: 0;
+		right: 0;
+		height: 2px;
+		background: #fff;
+		top: 0;
+	}
+	.humberger-menu-btn-lines span:nth-child(2){
+		top: 8px;
+	}
+	.humberger-menu-btn-lines span:nth-child(3){
+		top: 16px;
+	}
+
+	.humber-menu-expend span:nth-child(1){
+	  top: 44%;
+	  transform: rotate(45deg);
+	  -o-transform: rotate(45deg);
+	  -ms-transform: rotate(45deg);
+	  -webkit-transform: rotate(45deg);
+	  margin-bottom: 0;
+	  width: 100%;
+	}
+	.humber-menu-expend span:nth-child(2){
+		opacity: 0;
+	}
+	.humber-menu-expend span:nth-child(3) {
+	  top: 9px;
+	  transform: rotate(-45deg);
+	  -o-transform: rotate(-45deg);
+	  -ms-transform: rotate(-45deg);
+	  -webkit-transform: rotate(-45deg);
+	  width: 100%;
+	}
+	.hdr-navbar-inr{
+		position: relative;
+	}
+	.main-nav{
+		position: absolute;
+		left: -15px;
+		right: -15px;
+		top: 100%;
+		background: rgba(0,106,182,.8);
+		z-index: 50;
+		border-top: 1px solid #fff;
+		padding-bottom: 10px;
+		display: none;
+	}
+	.hdr-navbar-inr{
+		height: 70px;
+	}
+	.hdr-navbar-inr .show-sm{
+		justify-content: flex-end;
+	}
+	a.hdr-order-btn {
+	    width: 104px;
+	    height: 61px;
+	    border: none;
+	    border-radius: 8px;
+	    font-size: 17px;
+	    line-height: 17px;
+	}
+	nav.main-nav > ul > li{
+		display: block;
+	}
+	a.hdr-order-btn span{
+		border: 1px solid #006AB6;
+	}
+	.save-time-sec-des h3 span{
+		font-size: 26px;
+	}
+	.unbeatable-competition-sec h3{
+		font-size: 32px;
+	}
+	.unbeatable-competition-sec-list ul li,
+	.unbeatable-competition-sec-list ul li:nth-child(2) {
+	    width: 100%;
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+	.unbeatable-competition-sec-list ul,
+	.specs-item{
+		display: block;
+		text-align: center;
+	}
+	
+	.unbeatable-competition-sec-list{
+		padding-bottom: 60px;
+	}
+	.competitors-sec-brainding-logo{
+		padding-left: 12%;
+	}
+	.germs-lft-des p{
+		font-size: 21px;
+	}
+	.offer-sologan-bar p {
+	    font-size: 19px;
+	}
+	.order-step-3-box{
+		margin-bottom: 15px;
+	}
+}
+
+
+@media(max-width: 639px){
+	.tbody-td strong{
+		display: inline-block;
+		font-weight: normal;
+		  font-family: "Helvetica-Bold";
+		  padding-right: 20px;
+	}	
+	.tbody-td{
+		display: flex;
+		align-items: center;
+	}
+	.thead-row{
+		display: none;
+	}
+	.tbody-td{
+		width: 100%!important;
+		border-right: none;
+		border-bottom: 1px solid #ccc;
+		border-left: 1px solid #ccc;
+	}
+	.tbody-row{
+		display: block;
+	}
+	.tbody-td:last-child{
+		border-bottom: none;
+	}
+	.tfooter-td input[type="text"] {
+	    width: 100%;
+	    max-width: 100%;
+	}
+	.tfooter-td:first-child {
+	    width: 70%;
+	}
+	.tfooter-td{
+		width: 30%;
+	}
+	.state-tax-field{
+		display: block;
+	}
+}
+@media(max-width: 575px){
+	.hdr-rgt h2{
+		padding-left: 0;
+	}
+	.hdr-rgt h2 {
+	    font-size: 20px;
+	    padding-right: 5px;
+
+	}
+	.cleaning-convenient-items ul li{
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.save-time-sec-des h3 span {
+	    font-size: 21px;
+	}
+	.unbeatable-competition-sec h3{
+		font-size: 29px;
+	}
+	.competitors-sec-hdr h3 {
+	    font-size: 20px;
+	    padding-top: 24px;
+	}
+	.competitors-sec-brainding-logo{
+		padding-top: 7px;
+	}
+	.dft-btn{
+		font-size: 20px;
+	}
+	.offer-sologan-bar p {
+	    font-size: 18px;
+	}
+	.best-value-circle {
+	    left: -8px;
+	    top: 90px;
+	    width: 70px;
+	    height: 70px;
+	}
+	.best-value-circle span {
+	    font-size: 13px;
+	    line-height: 12px;
+	}
+	.form-fields{
+		padding-left: 0;
+	}
+	.select-offer-boxs-sec-con-hdr h5{
+		text-align: center;
+	}
+}
+
+@media(max-width: 479px){
+	.hdr-rgt h2 {
+	    font-size: 18px;
+	    padding-right: 0;
+
+	}
+	.hdr-rgt h2 br{
+		display: none;
+	}
+	.hdr-rgt{
+		display: block;
+	}
+	a.hdr-order-btn{
+		margin-left: auto;
+		margin-right: auto;
+		display: table;
+		margin-top: 5px;
+	}
+	.competitors-sec-brainding-logo{
+		padding-top: 16px;
+	}
+	.option-title strong{
+		font-size: 24px;
+	}
+	.option-title p{
+		font-size: 19px;
+	}
+	a.what-is-cvv2 {
+	    font-size: 12px;
+	    line-height: 15px;
+	    display: inline-block;
+	}
+}
+
+@media(max-width: 359px){
+
 }
