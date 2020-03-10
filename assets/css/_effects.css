@@ -1,7 +1,8 @@
 /**
 All Transitions
 */
-a,input,img,textarea,button{
+a,input,img,textarea,button,a.hdr-order-btn span,
+.dft-btn span{
 	transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	-webkit-transition: all 0.5s;
@@ -24,6 +25,7 @@ a:hover{
 }
 nav.main-nav ul li a:hover,
 nav.main-nav ul li.current-menu-item a{
-
+	background: #fff;
+	color: #006ab6;
 }
 

@@ -1,10 +1,5 @@
-
-
-
-
 .hdr-navbar{
 	text-align: center;
-	padding-top: 10px;
 }
 
 
@@ -22,11 +17,14 @@ nav.main-nav > ul{
 
 }
 nav.main-nav > ul > li{
-	padding: 0 10px 10px;
+	padding: 0px 1px;
 }
 nav.main-nav > ul > li > a{
 	text-transform: uppercase;
 	font-weight: 700;
+	padding: 10px 9px;
+	display: inline-block;
+	vertical-align: baseline;
 }
 
 nav.main-nav > ul > li.current-menu-item > a{
@@ -82,6 +80,10 @@ a.hdr-order-btn span {
    height: 100%;
    border: 2px solid #fff;
    border-radius: 5px; 
+}
+a.hdr-order-btn:hover span,
+.dft-btn:hover span{
+	border-color: #569abc;
 }
 
 .hdr-rgt h2{

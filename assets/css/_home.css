@@ -20,7 +20,8 @@
 	font-weight: 500;
 }
 .cleaning-convenient-item-des h6{
-
+	font-weight: 500;
+	font-size: 18px;
 }
 
 
@@ -45,6 +46,11 @@
 	line-height: 1.4;
 	font-family: "Helvetica";
 	color: #0b396b;
+}
+.save-time-sec-des p sup{
+	font-size: 100%;
+	position: relative;
+	top: 0;
 }
 
 .save-time-vdo iframe{
@@ -173,7 +179,7 @@
     text-shadow: 0 0 10px black;
     color: #00bcc3;
     text-align: center;
-    font-size: 22px;
+    font-size: 23px;
     line-height: 21px;
     text-transform: uppercase;
     padding-right: 25px;
@@ -189,7 +195,8 @@
 }
 
 .unbeatable-competition-sec h3{
-
+	font-size: 35px;
+	margin-bottom: 0;
 }
 .unbeatable-competition-sec-list ul{
 	display: flex;
@@ -202,8 +209,8 @@
 	width: 46%;
 	padding-right: 50px;
 	padding-left: 50px;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 35px;
+	padding-bottom: 35px;
 }
 
 .specs-left{
@@ -270,6 +277,15 @@
 	margin-bottom: 5px;
 	padding-top: 50px;
 }
+.germs-lft-des figure strong{
+	display: block;
+	margin-top: 5px;
+	text-transform: uppercase;
+	font-weight: normal;
+  font-family: "Helvetica-Bold";
+  font-size: 18px;
+
+} 
 .width-at-50{
 	float: left;
 	width: 50%;
@@ -287,13 +303,14 @@
 .germs-section{
 	background-position: right center!important;
 	background-repeat: no-repeat!important;
+	padding-top: 50px;
 }
 
 
 .offer-sologan-bar{
 	text-align: center;
 	color: #fff;
-	padding: 30px 0 20px;
+	padding: 40px 0 21px;
 	margin-bottom: 45px;
 }
 
@@ -316,10 +333,11 @@
 }
 .select-offer-boxs-sec-con-hdr h5{
 	color: #fff;
-	padding: 10px 10px 15px;
+	padding: 10px;
   font-family: "Helvetica";
   font-weight: 400;
   margin-bottom: 0;
+  font-size: 16px;
 }
 .select-offer-boxs-sec-con-hdr h5 strong{
   font-family: "Helvetica-Bold";
@@ -479,19 +497,22 @@
 #wipe-details h4 strong{
 	font-weight: 600;
 }
-#wipe-details ul{
+#wipe-details ul,
+.wipe-details-3 ul{
 	margin: 0;
 	padding: 0;
 	font-size: 18px;
 	list-style-position: inside;
 }
-#wipe-details ul li{
+#wipe-details ul li,
+.wipe-details-3 ul li{
 	padding: 5px;
 	padding-left: 20px;
 	font-weight: 500;
 	position: relative;
 }
-#wipe-details ul li:before {
+#wipe-details ul li:before,
+.wipe-details-3 ul li:before {
     content: ".";
     position: absolute;
     left: 0;
@@ -499,10 +520,26 @@
     font-size: 46px;
     z-index: 1;
     line-height: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
-.modal-dialog{
-	max-width: 975px;
+.wipe-details-3 ul li{
+	font-size: 14px;
+}
+.wipe-details-3 ul li a{
+	color: inherit;
+}
+
+.wipe-details-3 .modal-dialog{
+	max-width: 
+}
+.aaquickViewModal-con-wrap .modal-dialog{
+	max-width: 100%;
 	width: 100%;
+}
+.modal{
+	padding-left: 15px!important;
+	padding-right: 15px!important;
 }
 
 .modal-content .close{
@@ -525,6 +562,9 @@ a.add-to-cart-btn{
     background: #00bcc3;
     margin-left: auto;
     margin-right: auto;
+}
+a.add-to-cart-btn:hover{
+	background-color: #049297;
 }
 a.add-to-cart-btn.is-selected{
 	background: #313b56;
@@ -632,7 +672,12 @@ a.add-to-cart-btn.is-selected{
 	display: flex;
 	align-items: center;
 }
-
+.tbody-row{
+  font-family: "Helvetica";	
+}
+.tfooter-row{
+  font-family: "Helvetica-Bold";	
+}
 .ttable span{
 	display: block;
 }
@@ -848,6 +893,9 @@ a.what-is-cvv2{
     border-radius: 3px;
     cursor: pointer;
 }
+.pp-form-submit-btn input[type="submit"]:hover{
+	background: #256a8d;
+}
 .pp-form-submit-btn-btm-des{
 	text-align: center;
 	padding-left: 11px;
@@ -960,4 +1008,75 @@ a.what-is-cvv2{
 	width: 15px;
 	height: 15px;
 	border: 1px solid #b5b5b5;
+}
+
+
+.whatIsquickView-wrap .modal-dialog{
+	max-width: 470px;
+}
+
+#wipe-details-2 > p{
+	font-size: 14px;
+	line-height: 19px;
+	font-family: "Helvetica";
+	margin-bottom: 0;
+}
+
+#wipe-details-2 ul li .img-des-row{
+
+}
+.img-des-row{
+	padding: 0 0 0 120px;
+	position: relative;
+}
+.img-des-row-img{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.img-des-row-des p{
+	font-size: 14px;
+	font-family: "Helvetica";	
+}
+
+.whatIsquickView-wrap .modal-content{
+	padding-right: 30px;
+}
+
+.competitors-sec-hdr{
+	padding-bottom: 10px;
+}
+
+.competitors-sec-hdr h3{
+	float: left;
+	width: 50%;
+	margin-bottom: 0;
+	text-align: right;
+	padding-top: 10px;
+}
+.competitors-sec-brainding-logo{
+	width: 50%;
+	float: right;
+}
+.competitors-sec-brainding-logo img{
+	max-width: 240px;
+	width: 100%;
+}
+
+.branding-txt{
+	background: transparent;
+	color: inherit;
+}
+.branding-txt sup{
+	position: relative;
+	top: 0;
+	font-size: 100%;
+}
+#wipe-details-3{
+	  font-family: "Helvetica";	
+}
+#wipe-details-3 h4{
+	font-weight: normal;
+	  font-family: "Helvetica";
+	font-size: 18px;
 }

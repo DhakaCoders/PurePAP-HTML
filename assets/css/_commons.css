@@ -275,6 +275,9 @@ form .dropdown-menu li a{
 .bootstrap-select .dropdown-toggle:focus{
 	outline: none!important;
 }
+.dropup .dropdown-toggle::after{
+	content: none!important;
+}
 
 
 
@@ -317,12 +320,18 @@ sky bg
 }
 
 /*color sky 2*/
-.specs-item strong,
-.germs-lft-des p{
+.specs-item strong{
 	color: #25b1dc;
 }
+
+/*color sky 3*/
+.germs-lft-des p{
+	color: #00bcc3;
+}
+
 
 /*color orange*/
 .color-orange{
 	color: #ffa517;
 }
+

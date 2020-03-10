@@ -4,6 +4,7 @@ footer.footer-wrp{
 	color: #fff;
 	margin-top: 20px;
 	text-align: center;
+		font-family: "Helvetica";
 }
 
 .ftr-nav-row{
@@ -37,7 +38,6 @@ footer.footer-wrp{
 	color: #fff;
 	font-size: 12px;
 	line-height: 14px;
-  font-family: "Helvetica";
 }
 
 .copyright{
@@ -47,7 +47,6 @@ footer.footer-wrp{
 }
 .webby{
 	font-size: 12px;
-	font-family: "Helvetica";
 	font-weight: 500;
 }
 .webby a{
