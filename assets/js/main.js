@@ -1,7 +1,7 @@
 (function($) {
 var windowWidth = $(window).width();
-$('.navbar-toggle').on('click', function(){
-	$('#mobile-nav').slideToggle(300);
+$('.humberger-menu-btn').on('click', function(){
+	$('.main-nav').slideToggle(300);
 });
 	
 //matchHeightCol
@@ -15,17 +15,6 @@ if($('.tbody-td').length){
 
 //$('[data-toggle="tooltip"]').tooltip();
 
-//banner animation
-$(window).scroll(function() {
-  var scroll = $(window).scrollTop();
-  $('.page-banner-bg').css({
-    '-webkit-transform' : 'scale(' + (1 + scroll/2000) + ')',
-    '-moz-transform'    : 'scale(' + (1 + scroll/2000) + ')',
-    '-ms-transform'     : 'scale(' + (1 + scroll/2000) + ')',
-    '-o-transform'      : 'scale(' + (1 + scroll/2000) + ')',
-    'transform'         : 'scale(' + (1 + scroll/2000) + ')'
-  });
-});
 
 
 if($('.fancybox').length){
@@ -33,7 +22,6 @@ $('.fancybox').fancybox({
     //openEffect  : 'none',
     //closeEffect : 'none'
   });
-
 }
 
 /*
@@ -55,61 +43,10 @@ Responsive on 767px
 */
 
 // if (windowWidth <= 767) {
-  $('.toggle-btn').on('click', function(){
-    $(this).toggleClass('menu-expend');
-    $('.toggle-bar ul').slideToggle(500);
-  });
+
 
 
 // }
-
-
-
-// http://codepen.io/norman_pixelkings/pen/NNbqgG
-// https://stackoverflow.com/questions/38686650/slick-slides-on-pagination-hover
-
-
-/**
-Slick slider
-*/
-if( $('.responsive-slider').length ){
-    $('.responsive-slider').slick({
-      dots: true,
-      infinite: false,
-      speed: 300,
-      slidesToShow: 4,
-      slidesToScroll: 4,
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            infinite: true,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-      ]
-    });
-}
-
 
 
 

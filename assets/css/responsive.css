@@ -37,6 +37,22 @@
 	.show-sm{
 		display: block!important;
 	}
+
+	h1{
+		font-size: 40px;
+	}
+	h2{
+		font-size: 35px;
+	}
+	h3{
+		font-size: 30px;
+	}
+	h4{
+		font-size: 24px;
+	}
+	h5{
+		font-size: 15px;
+	}
 }
 
 @media(max-width: 575px){
@@ -45,6 +61,21 @@
 	}
 	.show-xs{
 		display: block!important;
+	}
+	h1{
+		font-size: 35px;
+	}
+	h2{
+		font-size: 30px;
+	}
+	h3{
+		font-size: 27px;
+	}
+	h4{
+		font-size: 24px;
+	}
+	h5{
+		font-size: 15px;
 	}
 
 }
