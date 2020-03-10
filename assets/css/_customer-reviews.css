@@ -246,6 +246,13 @@ customer-review-sec-wrp
 .faq-accoordion-wrp{
 	padding-top: 15px;
 }
+.faq-accoordion span em mark{
+	padding: 0;
+	color: #4b4b4b;
+}
+.faq-accoordion p mark{
+	padding: 0;
+}
 
 
 
