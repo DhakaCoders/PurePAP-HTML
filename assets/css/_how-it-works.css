@@ -1,7 +1,7 @@
 .pp-how-it-work-des-left{
 	float: left;
 	width: 60%;
-	padding-bottom: 50px;
+    padding-bottom: 67px;
 }
 .pp-how-it-work-des-right{
 	float: right;
@@ -34,6 +34,23 @@
 	overflow: hidden;
 }
 
+.how-it-work-ctlr .cr-offer-lft-tp > span{
+	font-family: "Helvetica-bold";
+}
+.how-it-work-ctlr a.hdr-order-btn span{
+	transition: 0.5s;
+}
+.end-des{
+	padding-bottom: 25px;
+}
+.bottom-des{
+	padding-bottom: 0;
+	padding-top: 10px;
+}
+.pp-how-it-work-vdo iframe{
+	width: 100%;
+}
+
 
 
 
@@ -51,12 +68,19 @@
 	    width: 100%;
 	    margin-top: 0px;
 	    padding-left: 0px;
+	    padding-top: 20px;
+	    padding-bottom: 20px;
 	}
 	.pp-how-it-work-des-wrap .customer-review-offer-wrp {
 	    padding-top: 0px;
 	}
-	.pp-how-it-work-des-wrap{
-		padding-bottom: 20px;
+	.how-it-work-ctlr .pp-how-it-work-vdo{
+		max-width: 582px;
+	    width: 100%;
+	    margin: 0 auto;
+	}
+	.how-it-work-ctlr .cr-offer-lft-tp strong sup {
+	    left: 0px;
 	}
 	
 }
@@ -83,7 +107,11 @@
 	    font-size: 17px;
 	}
 	.pp-how-it-work-des-left {
-	    padding-bottom: 40px;
+	    padding-bottom: 50px;
+	}
+	.bottom-des{
+		padding-bottom: 0;
+		padding-top: 0px;
 	}
 }
 
@@ -95,7 +123,7 @@
 		display: block!important;
 	}
 	.pp-how-it-work-des-left {
-	    padding-bottom: 30px;
+	    padding-bottom: 40px;
 	}
 	.pp-how-it-work-des-inr {
 	    padding-bottom: 10px;
