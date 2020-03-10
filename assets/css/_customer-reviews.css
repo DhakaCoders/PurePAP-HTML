@@ -7,6 +7,10 @@ customer-review-sec-wrp
 	padding-bottom: 25px;
 	padding-top: 10px;
 }
+.customer-review-sec-wrp .pp-instr-brdcmb-inner{
+	width: 60%;
+	float: left;
+}
 .customer-review-lft{
 	width: 60%;
 	float: left;
@@ -25,7 +29,7 @@ customer-review-sec-wrp
 	margin: 0;
 	font-size: 18px;
 	line-height: 20px;
-	color: #000;
+	color: #333;
 	font-weight: 700;
 	margin-top: 5px;
 	margin-bottom: 14px;
@@ -42,7 +46,7 @@ customer-review-sec-wrp
 	margin: 0;
 	font-size: 18px;
 	line-height: 25px;
-	color: #000;
+	color: #333;
 	display: inline-block;
 	vertical-align: baseline;
 	font-weight: 500;
@@ -50,7 +54,7 @@ customer-review-sec-wrp
 }
 .customer-review-rgt{
 	width: 40%;
-	float: left;
+	float: right;
 	padding-left: 15px;
 	margin-right: -10px;
 }
@@ -71,6 +75,10 @@ customer-review-sec-wrp
 	text-align: center;
 	font-family: "arial";
 }
+.cr-offer-lft-tp strong sup{
+	left: 12px;
+	top: -12px;
+}
 .cr-offer-lft-tp strong span{
 	display: block;
 	font-size: 22px;
@@ -82,9 +90,9 @@ customer-review-sec-wrp
 	text-align: center;
 	font-size: 20px;
 	line-height: 22px;
-	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 7px;
+	font-family: "Helvetica-Bold";
 }
 .cr-offer-lft-tp a.hdr-order-btn{
 	width: 200px;
@@ -191,7 +199,7 @@ customer-review-sec-wrp
 	font-size: 18px;
 	line-height: 20px;
 	font-weight: 600;
-	color: #000;
+	color: #4b4b4b;
 	padding: 13px 30px 15px 10px;
 	position: relative;
 	cursor: pointer;
@@ -255,12 +263,20 @@ customer-review-sec-wrp
 	    font-size: 46px;
 	    line-height: 48px;
 	}
+	.faq-accoordion p br{
+		display: none;
+	}
 }
 
 @media(max-width: 991px){
+	.customer-review-sec-wrp .pp-instr-brdcmb-inner{
+		width: 100%;
+		float: left;
+	}
 	.customer-review-rgt {
 	    width: 100%;
 	    padding-left: 0;
+	    padding-bottom: 20px;
 	}
 	.customer-review-lft {
 	    width: 100%;
@@ -279,6 +295,9 @@ customer-review-sec-wrp
 	}
 	.cr-offer-lft-tp strong sup{
 		left: 10px;
+	}
+	.faq-accoordion-wrp {
+	    padding-top: 10px;
 	}
 
 }
@@ -320,7 +339,7 @@ customer-review-sec-wrp
 	    padding-bottom: 20px;
 	}
 	.pp-bonus-bag {
-	    display: inline-block;
+	    display:block;
 	    justify-content: center;
 	    align-items: center;
 	    text-align: center;
