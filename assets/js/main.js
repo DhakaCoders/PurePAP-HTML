@@ -2,6 +2,7 @@
 var windowWidth = $(window).width();
 $('.humberger-menu-btn').on('click', function(){
 	$('.main-nav').slideToggle(300);
+  $(this).toggleClass('humber-menu-expend');
 });
 	
 //matchHeightCol

@@ -543,7 +543,9 @@
 .wipe-details-3 ul li a{
 	color: inherit;
 }
-
+.modal-dialog{
+	margin-left: 0!important;
+}
 .wipe-details-3 .modal-dialog{
 	max-width: 
 }
@@ -1139,7 +1141,7 @@ a.what-is-cvv2{
 	.best-value-circle{
 		left: -18px;
 	}
-	
+
 
 }
 
@@ -1340,7 +1342,7 @@ a.what-is-cvv2{
 		display: block;
 	}
 	a.hdr-order-btn span{
-		border: 1px solid #006AB6;
+		border: 1px solid #ccc;
 	}
 	.save-time-sec-des h3 span{
 		font-size: 26px;
@@ -1374,6 +1376,49 @@ a.what-is-cvv2{
 	}
 	.order-step-3-box{
 		margin-bottom: 15px;
+	}
+	.bnr-lft-col {
+	    max-width: 352px;
+	    margin-bottom: 15px;
+	    color: #fff;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	.bnr-rgt-col div h2{
+		left: 0;
+	}
+	.content-move-rgt{
+		text-align: center;
+	}
+	.bnr-btm-txt strong {
+	    text-align: center;
+	    padding-top: 10px;
+	    margin-left: 0;
+	}
+	.bnr-risk-free-img{
+		padding-left: 115px;
+	}
+	.bnr-mastercard-imgs{
+		padding-left: 92px;
+	}
+	.bnr-btn{
+		padding-left: 76px;
+	}
+	.bnr-btn,.bnr-mastercard-imgs,.bnr-risk-free-img{
+		padding-left: 0;
+		padding-right: 0;
+		text-align: center;
+	}
+	.bnr-offer-price{
+		text-align: center;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.bnr-money-back-sologan strong{
+		padding-right: 0;
+	}
+	.main-banner{
+		padding-bottom: 30px;
 	}
 }
 
@@ -1467,6 +1512,10 @@ a.what-is-cvv2{
 	.select-offer-boxs-sec-con-hdr h5{
 		text-align: center;
 	}
+	.bnr-rgt-col div h2 {
+	    font-size: 27px;
+	}
+
 }
 
 @media(max-width: 479px){
@@ -1481,12 +1530,7 @@ a.what-is-cvv2{
 	.hdr-rgt{
 		display: block;
 	}
-	a.hdr-order-btn{
-		margin-left: auto;
-		margin-right: auto;
-		display: table;
-		margin-top: 5px;
-	}
+
 	.competitors-sec-brainding-logo{
 		padding-top: 16px;
 	}
@@ -1500,6 +1544,14 @@ a.what-is-cvv2{
 	    font-size: 12px;
 	    line-height: 15px;
 	    display: inline-block;
+	}
+	.img-des-row-img{
+		position: static;
+		padding-bottom: 10px;
+		float: left;
+	}
+	.img-des-row{
+		padding-left: 0;
 	}
 }
 
