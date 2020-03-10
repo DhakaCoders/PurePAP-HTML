@@ -33,4 +33,12 @@ CUSTOMER REVIEWS
 	display block dite hobe
 	bcoz text ta center a hoyni
 
-N.B.--> text , font and color gulo aktu valo kore check kore dekhte hobe j thik thak ache kina, ami r check kortechina. 
+N.B.--> 
+
+1. text , font and color gulo aktu valo kore check kore dekhte hobe j thik thak ache kina, ami r check kortechina. 
+
+2. https://www.screencast.com/t/w4ASQE8cT
+	branding text ta change korte hobe amader jkhane jkhane ache. 
+	ata hobe  'Pure&nbsp;Pap' r jkhane tm ta ache sekhane 'Pure&nbsp;PapTM'
+
+3. sob img a lazy load use korte hobe
