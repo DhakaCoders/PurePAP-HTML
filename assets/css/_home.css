@@ -268,7 +268,17 @@
 	z-index: 2;
 	margin: 0;
 }
-
+.germs-lft-des{
+	width: 50%;
+	padding-right: 10px;
+}
+.germs-lft-des .width-at-50{
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.germs-lft-des .width-at-50 img{
+	width: 100%;
+}
 .germs-lft-des figure{
 	max-width: 385px;
 	text-align: center;
@@ -324,6 +334,7 @@
 }
 .offer-sologan-bar p{
 	font-size: 20px;
+
 }
 
 
@@ -614,7 +625,9 @@ a.add-to-cart-btn.is-selected{
 .tbody-td:nth-child(1){
 	width: 40%;
 }
-
+.tbody-td strong{
+	display: none;
+}
 .thead{
 	color: #fff;
 	background: #de0000;
@@ -1100,10 +1113,42 @@ a.what-is-cvv2{
 }
 
 @media(max-width: 1199px){
-
+	.germs-section{
+		background: transparent!important;
+	}
+	.germs-lft-des p{
+		max-width: 100%;
+	}
+	.germs-lft-des {
+	    width: 100%;
+	    padding-right: 0;
+	    padding-top: 20px;
+	}
+	.germs-lft-des figure {
+	    max-width: 385px;
+	    text-align: center;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	.germs-lft-des figcaption{
+		padding-top: 10px;
+	}
+	.germs-section{
+		padding-top: 30px;
+	}
+	.best-value-circle{
+		left: -18px;
+	}
+	
 
 }
 
+@media(max-width: 1023px){
+	.best-value-circle {
+	    left: -8px;
+	    top: 65px;
+	}
+}
 @media(max-width: 991px){
 	.hdr-rgt h2{
 		font-size: 23px;
@@ -1129,8 +1174,47 @@ a.what-is-cvv2{
 	.cleaning-convenient-items ul li:nth-child(2n+1) {
 	    clear: left;
 	}
-}
+	.save-time-sec-des{
+		padding-top: 30px;
+	}
+	.unbeatable-competition-sec-list ul li {
+	    width: 29%;
+	}
+	.unbeatable-competition-sec-list ul li:nth-child(2){
+		width: 42%;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.germs-section{
+		padding-top: 20px;
+	}
+	.germs-lft-des p{
+		font-size: 23px;
+	}
+	.specs-mid-img{
+		max-width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.select-offer-box{
+		width: 100%;
+	}
+	.select-offer-box-1{
+		padding-bottom: 65px;
+		position: relative;
+	}
+	.or-wrapper{
+		bottom: 3px;
+		top: auto;
+	}
 
+	
+}
+@media(max-width: 919px){
+	.competitors-sec-brainding-logo{
+		padding-left: 10%;
+	}
+}
 @media(max-width: 767px){
 	.hdr-lft,
 	.hdr-rgt {
@@ -1258,8 +1342,82 @@ a.what-is-cvv2{
 	a.hdr-order-btn span{
 		border: 1px solid #006AB6;
 	}
+	.save-time-sec-des h3 span{
+		font-size: 26px;
+	}
+	.unbeatable-competition-sec h3{
+		font-size: 32px;
+	}
+	.unbeatable-competition-sec-list ul li,
+	.unbeatable-competition-sec-list ul li:nth-child(2) {
+	    width: 100%;
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+	.unbeatable-competition-sec-list ul,
+	.specs-item{
+		display: block;
+		text-align: center;
+	}
+	
+	.unbeatable-competition-sec-list{
+		padding-bottom: 60px;
+	}
+	.competitors-sec-brainding-logo{
+		padding-left: 12%;
+	}
+	.germs-lft-des p{
+		font-size: 21px;
+	}
+	.offer-sologan-bar p {
+	    font-size: 19px;
+	}
+	.order-step-3-box{
+		margin-bottom: 15px;
+	}
 }
 
+
+@media(max-width: 639px){
+	.tbody-td strong{
+		display: inline-block;
+		font-weight: normal;
+		  font-family: "Helvetica-Bold";
+		  padding-right: 20px;
+	}	
+	.tbody-td{
+		display: flex;
+		align-items: center;
+	}
+	.thead-row{
+		display: none;
+	}
+	.tbody-td{
+		width: 100%!important;
+		border-right: none;
+		border-bottom: 1px solid #ccc;
+		border-left: 1px solid #ccc;
+	}
+	.tbody-row{
+		display: block;
+	}
+	.tbody-td:last-child{
+		border-bottom: none;
+	}
+	.tfooter-td input[type="text"] {
+	    width: 100%;
+	    max-width: 100%;
+	}
+	.tfooter-td:first-child {
+	    width: 70%;
+	}
+	.tfooter-td{
+		width: 30%;
+	}
+	.state-tax-field{
+		display: block;
+	}
+}
 @media(max-width: 575px){
 	.hdr-rgt h2{
 		padding-left: 0;
@@ -1271,8 +1429,44 @@ a.what-is-cvv2{
 	}
 	.cleaning-convenient-items ul li{
 		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
 	}
-
+	.save-time-sec-des h3 span {
+	    font-size: 21px;
+	}
+	.unbeatable-competition-sec h3{
+		font-size: 29px;
+	}
+	.competitors-sec-hdr h3 {
+	    font-size: 20px;
+	    padding-top: 24px;
+	}
+	.competitors-sec-brainding-logo{
+		padding-top: 7px;
+	}
+	.dft-btn{
+		font-size: 20px;
+	}
+	.offer-sologan-bar p {
+	    font-size: 18px;
+	}
+	.best-value-circle {
+	    left: -8px;
+	    top: 90px;
+	    width: 70px;
+	    height: 70px;
+	}
+	.best-value-circle span {
+	    font-size: 13px;
+	    line-height: 12px;
+	}
+	.form-fields{
+		padding-left: 0;
+	}
+	.select-offer-boxs-sec-con-hdr h5{
+		text-align: center;
+	}
 }
 
 @media(max-width: 479px){
@@ -1293,7 +1487,20 @@ a.what-is-cvv2{
 		display: table;
 		margin-top: 5px;
 	}
-
+	.competitors-sec-brainding-logo{
+		padding-top: 16px;
+	}
+	.option-title strong{
+		font-size: 24px;
+	}
+	.option-title p{
+		font-size: 19px;
+	}
+	a.what-is-cvv2 {
+	    font-size: 12px;
+	    line-height: 15px;
+	    display: inline-block;
+	}
 }
 
 @media(max-width: 359px){

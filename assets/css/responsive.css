@@ -17,7 +17,13 @@
 	.show-lg{
 		display: block!important;
 	}
-
+	.ftr-nav-row ul li{
+		padding-bottom: 2px;
+		padding-top: 2px;
+	}
+	.copyright{
+		padding-top: 20px;
+	}
 }
 
 @media(max-width: 991px){
@@ -63,16 +69,16 @@
 		display: block!important;
 	}
 	h1{
-		font-size: 35px;
+		font-size: 32px;
 	}
 	h2{
-		font-size: 30px;
-	}
-	h3{
 		font-size: 27px;
 	}
-	h4{
+	h3{
 		font-size: 24px;
+	}
+	h4{
+		font-size: 20px;
 	}
 	h5{
 		font-size: 15px;
