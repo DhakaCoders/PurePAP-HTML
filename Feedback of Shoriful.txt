@@ -2,4 +2,57 @@ HOW IT WORKS
 -----------
 Desktop-->
 
-1. 
+1. https://www.screencast.com/t/sHtpCcb1Om
+	font-size 30 daw
+
+2. https://www.screencast.com/t/WU6bGaLc
+	ai khane home page ar link daw. click korle jeno home page a chole jay
+	then sob page a pest kore daw ata. milon ar page ao
+
+3. https://www.screencast.com/t/GBqqPS6K
+	i) ai font-family ta daw
+	ii) font-weight tule daw
+
+4. https://www.screencast.com/t/FdxgIwK72
+	jokhon hover hosche tokhon akta transition lagbe border tar jonno
+
+
+5. https://www.screencast.com/t/SlXEScRTzcg
+	home page thake copy kore new ta bosao
+
+6. https://www.screencast.com/t/elJfGoAxm
+	ai text gulo missing
+
+
+Responsive----->
+1. https://www.screencast.com/t/rIT8ky02
+	home page thake only ai section ta copy kore bosao then uporer gap ta dekhte hobe j xs a thik tahk ache kina
+
+2. https://www.screencast.com/t/ob4YLzXdF
+	jokhon full-width hobe tokhon ai div upore hobe r des ta niche
+
+3. https://www.screencast.com/t/mcSGTOZb
+	xs a ai sign ta lege geche
+
+4. https://www.screencast.com/t/KN1EN1jd0x
+	jokhon full width hobe tokhon ai vdo ta margin lef and rigth auto hoye center a hobe
+
+
+
+INSTRUCTIONS
+-----------
+Desktop-->
+
+ai page fix ager motoi
+
+
+N.B.--> 
+
+1. text , font and color gulo aktu valo kore check kore dekhte hobe j thik thak ache kina, ami r check kortechina. 
+
+2. https://www.screencast.com/t/w4ASQE8cT
+	branding text ta change korte hobe amader jkhane jkhane ache. 
+	ata hobe  'Pure&nbsp;Pap' r jkhane tm ta ache sekhane 'Pure&nbsp;PapTM'
+
+3. sob img a lazy load use korte hobe
+
