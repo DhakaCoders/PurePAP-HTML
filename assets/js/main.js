@@ -71,7 +71,4 @@ Responsive on 767px
 // }
 
 
-
- new WOW().init();
-
 })(jQuery);
