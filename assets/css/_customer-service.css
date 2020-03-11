@@ -1,0 +1,149 @@
+.pp-cstmr-srvc-des-wrap{
+	padding-bottom: 55px;
+}
+.pp-cstmr-srvc-des-right{
+	float: right;
+	width: 40%;
+	margin-top: -90px;
+}
+.pp-cstmr-srvc-des-left{
+	float: left;
+	width: 60%;
+}
+.cstmr-srvc-ctlr .cr-offer-lft-tp strong sup {
+    left: 0px;
+}
+.pp-cstmr-srvc-des-inr,
+.pp-cstmr-srvc-visiting-hour,
+.pp-cstmr-srvc-phn{
+	padding-bottom: 18px;
+}
+.pp-cstmr-srvc-des-inr span,
+.pp-cstmr-srvc-visiting-hour span,
+.pp-cstmr-srvc-phn span,
+.pp-cstmr-srvc-mail span{
+	font-size: 18px;
+	color: #333;
+	font-family: 'arial', sans-serif;
+}
+.pp-cstmr-srvc-btm-des{
+	padding-bottom: 17px;
+}
+.pp-cstmr-srvc-btm-des span{
+	display: block;
+	font-size: 18px;
+	color: #333;
+	font-family: 'arial', sans-serif;
+}
+.pp-cstmr-srvc-phn span a,
+.pp-cstmr-srvc-mail span a{
+	color: #333;
+	text-decoration: underline;
+}
+
+
+
+@media(max-width: 1499px){
+
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+
+}
+
+@media(max-width: 1199px){
+	.hide-lg{
+		display: none!important;
+	}
+	.show-lg{
+		display: block!important;
+	}
+	.ftr-nav-row ul li{
+		padding-bottom: 2px;
+		padding-top: 2px;
+	}
+	.copyright{
+		padding-top: 20px;
+	}
+}
+
+@media(max-width: 991px){
+	.hide-md{
+		display: none!important;
+	}
+	.show-md{
+		display: block!important;
+	}
+	.pp-cstmr-srvc-des-right {
+	    width: 100%;
+	    margin-top: 0px;
+	    padding-bottom: 20px;
+	}
+	.pp-cstmr-srvc-des-left {
+	    float: left;
+	    width: 100%;
+	}
+	
+}
+
+@media(max-width: 767px){
+	.hide-sm{
+		display: none!important;
+	}
+	.show-sm{
+		display: block!important;
+	}
+
+}
+
+@media(max-width: 575px){
+	.hide-xs{
+		display: none!important;
+	}
+	.show-xs{
+		display: block!important;
+	}
+	.pp-cstmr-srvc-des-inr, 
+	.pp-cstmr-srvc-visiting-hour, 
+	.pp-cstmr-srvc-phn,
+	.pp-cstmr-srvc-btm-des {
+	    padding-bottom: 15px;
+	}
+	.pp-cstmr-srvc-des-wrap {
+	    padding-bottom: 40px;
+	}
+
+}
+
+@media(max-width: 479px){
+	.pp-cstmr-srvc-btm-des span {
+	    font-size: 15px;
+	}
+	.pp-cstmr-srvc-des-inr span, 
+	.pp-cstmr-srvc-visiting-hour span, 
+	.pp-cstmr-srvc-phn span, 
+	.pp-cstmr-srvc-mail span {
+	    font-size: 15px;
+	}
+	.pp-cstmr-srvc-des-inr, 
+	.pp-cstmr-srvc-visiting-hour, 
+	.pp-cstmr-srvc-phn,
+	.pp-cstmr-srvc-btm-des {
+	    padding-bottom: 12px;
+	}
+
+}
+
+@media(max-width: 359px){
+	.pp-cstmr-srvc-des-inr span, 
+	.pp-cstmr-srvc-visiting-hour span, 
+	.pp-cstmr-srvc-phn span, 
+	.pp-cstmr-srvc-mail span {
+	    font-size: 14px;
+	}
+}
+
