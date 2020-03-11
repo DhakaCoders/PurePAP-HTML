@@ -500,6 +500,10 @@
 	text-decoration: underline;
 	color: #000;
 }
+.modal-dialog{
+	margin-left: auto!important;
+	margin-right: auto!important;
+}
 
 .modal-content {
     padding: 20px 20px 20px;
@@ -542,9 +546,6 @@
 }
 .wipe-details-3 ul li a{
 	color: inherit;
-}
-.modal-dialog{
-	margin-left: 0!important;
 }
 .wipe-details-3 .modal-dialog{
 	max-width: 
@@ -1093,10 +1094,32 @@ a.what-is-cvv2{
 #wipe-details-3{
 	  font-family: "Helvetica";	
 }
-#wipe-details-3 h4{
+#wipe-details-3 h4,
+#wipe-details-4 h4,
+#wipe-details-5 h4,
+#wipe-details-6 h4{
 	font-weight: normal;
 	  font-family: "Helvetica";
 	font-size: 18px;
+}
+
+#wipe-details-4 h4,
+#wipe-details-5 h4,
+#wipe-details-6 h4{
+	color: #333;
+	margin-bottom: 10px;
+}
+
+#wipe-details-4 p,
+#wipe-details-5 p,
+#wipe-details-6 p{
+	font-size: 15px;
+	line-height: 1.3;
+}
+#ShippingPolicyModal .modal-dialog,
+#SecurityPolicyModal .modal-dialog{
+	width: 100%;
+	max-width: 100%;
 }
 
 
