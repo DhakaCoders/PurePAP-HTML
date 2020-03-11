@@ -1,10 +1,10 @@
 .pp-site-map-des-wrap{
-	padding-bottom: 50px;
+	padding-bottom: 52px;
 }
 .pp-site-map-des-right{
 	float: right;
 	width: 40%;
-	margin-top: -100px;
+	margin-top: -90px;
 }
 .pp-site-map-des-left{
 	float: left;
@@ -45,26 +45,8 @@
 }
 
 
-@media(max-width: 1499px){
 
-}
 
-@media(max-width: 1399px){
-
-}
-
-@media(max-width: 1299px){
-
-}
-
-@media(max-width: 1199px){
-	.hide-lg{
-		display: none!important;
-	}
-	.show-lg{
-		display: block!important;
-	}
-}
 
 @media(max-width: 991px){
 	.hide-md{
@@ -84,15 +66,7 @@
 	
 }
 
-@media(max-width: 767px){
-	.hide-sm{
-		display: none!important;
-	}
-	.show-sm{
-		display: block!important;
-	}
 
-}
 
 @media(max-width: 575px){
 	.hide-xs{
