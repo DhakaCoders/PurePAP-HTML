@@ -17,6 +17,17 @@ if($('.tbody-td').length){
 //$('[data-toggle="tooltip"]').tooltip();
 
 
+$('.xs-order-now-btn a,.order-con-btn').on('click', function(e){
+  e.preventDefault();
+  $('body').addClass('xs-order-sec-cntlr');
+});
+
+$('.xs-back-btn a').on('click', function(e){
+  e.preventDefault();
+  $('body').removeClass('xs-order-sec-cntlr');
+});
+
+
 
 if($('.fancybox').length){
 $('.fancybox').fancybox({
