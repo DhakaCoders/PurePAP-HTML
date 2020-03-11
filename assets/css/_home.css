@@ -175,6 +175,8 @@
 .bnr-rgt-col figure img{
 	position: relative;
 	z-index: 2;
+	max-width: 195px;
+	margin-right: 20px;
 }
 .bnr-money-back-sologan strong {
     display: inline-block;
@@ -485,11 +487,14 @@
 	font-size: 18px;
 }
 
-.option-info{
-	font-size: 13px;
-  font-family: "Helvetica";
-  font-weight: 500;
-
+.option-info {
+    font-size: 13px;
+    font-family: "Helvetica";
+    font-weight: 500;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
 }
 .option-info strong{
 	font-family: 'Montserrat', sans-serif;
