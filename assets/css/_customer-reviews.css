@@ -399,6 +399,17 @@ customer-review-sec-wrp
 	.pp-bonus-bag-title p br{
 		display: none;
 	}
+	.pp-instr-brdcmb-xs a{
+		font-size: 16px !important;
+	}
+	.pp-instr-brdcmb-xs a span{
+	    padding-left: 30px;
+	    padding-right: 7px;
+	}
+	.pp-instr-brdcmb-xs a span i {
+	    left: 10px;
+	    top: 12px;
+	}
 
 
 }
