@@ -50,6 +50,9 @@
 .pp-how-it-work-vdo iframe{
 	width: 100%;
 }
+.how-it-work-ctlr .cr-offer-lft-tp strong sup {
+    left: 0px;
+}
 
 
 

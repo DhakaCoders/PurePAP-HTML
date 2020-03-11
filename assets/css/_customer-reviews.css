@@ -255,6 +255,32 @@ customer-review-sec-wrp
 }
 
 
+/*
+----------------------
+ Privacy Policy
+----------------------
+*/
+.privacy-policy-dsc{
+	padding-top: 15px;
+}
+.privacy-policy-dsc p{
+	font-size: 18px;
+	line-height: 1.4;
+	margin-bottom: 15px;
+	font-family: "arial";
+	font-weight: 400;
+	color: #333;
+}
+.privacy-policy-dsc p a{
+	display: inline-block;
+	vertical-align: baseline;
+	text-decoration: underline;
+	color: inherit;
+}
+.privacy-policy-dsc p a:hover{
+	color: #27a5c3;
+}
+
 
 @media(max-width: 1199px){
 	.customer-review-lft {
@@ -306,6 +332,9 @@ customer-review-sec-wrp
 	.faq-accoordion-wrp {
 	    padding-top: 10px;
 	}
+	.privacy-policy-dsc p br{
+		display: none;
+	}
 
 }
 
@@ -323,6 +352,10 @@ customer-review-sec-wrp
 	.cr-offer-lft-tp strong {
 	    font-size: 40px;
 	    line-height: 42px;
+	}
+	.privacy-policy-dsc p{
+		font-size: 16px;
+		line-height: 1.2;
 	}
 
 }
@@ -367,8 +400,12 @@ customer-review-sec-wrp
 		display: none;
 	}
 
+
 }
 
 @media(max-width: 359px){
-
+	.privacy-policy-dsc p{
+		font-size: 15px;
+		line-height: 1.2;
+	}
 }

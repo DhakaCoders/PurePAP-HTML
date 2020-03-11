@@ -500,6 +500,10 @@
 	text-decoration: underline;
 	color: #000;
 }
+.modal-dialog{
+	margin-left: auto!important;
+	margin-right: auto!important;
+}
 
 .modal-content {
     padding: 20px 20px 20px;
@@ -542,9 +546,6 @@
 }
 .wipe-details-3 ul li a{
 	color: inherit;
-}
-.modal-dialog{
-	margin-left: 0!important;
 }
 .wipe-details-3 .modal-dialog{
 	max-width: 
@@ -1093,13 +1094,204 @@ a.what-is-cvv2{
 #wipe-details-3{
 	  font-family: "Helvetica";	
 }
-#wipe-details-3 h4{
+#wipe-details-3 h4,
+#wipe-details-4 h4,
+#wipe-details-5 h4,
+#wipe-details-6 h4{
 	font-weight: normal;
 	  font-family: "Helvetica";
 	font-size: 18px;
 }
 
+#wipe-details-4 h4,
+#wipe-details-5 h4,
+#wipe-details-6 h4{
+	color: #333;
+	margin-bottom: 10px;
+}
 
+#wipe-details-4 p,
+#wipe-details-5 p,
+#wipe-details-6 p{
+	font-size: 15px;
+	line-height: 1.3;
+}
+#ShippingPolicyModal .modal-dialog,
+#SecurityPolicyModal .modal-dialog{
+	width: 100%;
+	max-width: 100%;
+}
+
+
+.xs-order-now-btn-sec-inr{
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+.xs-order-now-btn{
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.xs-order-now-btn a{
+	background: #f58223;
+	color: #fff;
+	text-align: center;
+	padding: 10px;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	    border: solid 1px #707070;
+    -webkit-box-shadow: inset 0 0 1px 1px white;
+    -moz-box-shadow: inset 0 0 1px 1px white;
+    box-shadow: inset 0 0 1px 1px white;
+    border-radius: 5px;
+}
+
+
+.fp-nav{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-family: "Helvetica-Bold";
+	font-size: 12px;
+	line-height: 14px;
+	background: rgba(255,255,255,0.65);
+	text-shadow: 0 0 6px rgba(0,0,0,0.8);
+	-ms-text-shadow: 0 0 6px rgba(0,0,0,0.8);
+	-webkit-text-shadow: 0 0 6px rgba(0,0,0,0.8);
+	border-radius: 45px 45px 0 0;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 100;
+	width: 93px;
+	padding: 10px;
+
+}
+.fp-nav a{
+	display: block;
+   width: 100%;
+   border: 2px solid #000;
+   color: #fff;
+   min-height: 70px;
+   padding: 1px;
+   margin-bottom: 5px;
+   border-radius: 35px 35px 0 0;
+}
+.fp-nav a span{
+   background-color: rgba(23,81,219,.8);
+    
+   /*background-image: url('../images/fingerprint.png');*/
+   background-image: url('../images/fingerprint.png');
+   background-size: 40px auto;
+   background-repeat: no-repeat;
+   background-position: center center;
+   display: block;
+   height: 100%;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid #fff;
+   min-height: 69px;
+   border-radius: 35px 35px 0 0;
+}
+
+.fp-nav a:nth-child(1) span{
+	background-color: red;
+}
+.fp-nav a:nth-child(2){
+
+}
+.fp-nav a:nth-child(3){
+
+}
+
+.secure-checkout-img{
+	text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.secure-checkout-img div span{
+	text-transform: uppercase;
+	  font-family: "Helvetica-Bold";
+}
+.secure-checkout-img div a{
+	color: #006AB6;
+}
+.xs-back-btn-area{
+	display: none;
+}
+.xs-back-btn{
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+.xs-back-btn a{
+	width: 70px;
+	height: 38px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	font-size: 12px;
+    border: solid 1px #707070;
+    -webkit-box-shadow: inset 0 0 1px 1px #fff;
+    -moz-box-shadow: inset 0 0 1px 1px #fff;
+    box-shadow: inset 0 0 1px 1px #fff;
+	line-height: 1.5;
+	color: #fff;
+	border-radius: 5px;
+    cursor: pointer;
+    border: solid 1px #707070;
+    text-shadow: 1px 1px 1px #111;
+    background: rgba(66,66,66,1);
+    background: -moz-linear-gradient(top, rgba(97,97,97,1) 0%, rgba(66,66,66,1) 48%, rgba(53,53,53,1) 51%, rgba(36,36,36,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(97,97,97,1)), color-stop(48%,rgba(66,66,66,1)), color-stop(51%,rgba(53,53,53,1)), color-stop(100%,rgba(36,36,36,1)));
+    background: -webkit-linear-gradient(top, rgba(97,97,97,1) 0%,rgba(66,66,66,1) 48%,rgba(53,53,53,1) 51%,rgba(36,36,36,1) 100%);
+    background: -o-linear-gradient(top, rgba(97,97,97,1) 0%,rgba(66,66,66,1) 48%,rgba(53,53,53,1) 51%,rgba(36,36,36,1) 100%);
+    background: -ms-linear-gradient(top, rgba(97,97,97,1) 0%,rgba(66,66,66,1) 48%,rgba(53,53,53,1) 51%,rgba(36,36,36,1) 100%);
+    background: linear-gradient(top, rgba(97,97,97,1) 0%,rgba(66,66,66,1) 48%,rgba(53,53,53,1) 51%,rgba(36,36,36,1) 100%);
+}
+
+.xs-back-btn a span{
+	position: relative;
+	padding-left: 13px;
+}
+.xs-back-btn a span:before{
+	content: "\f104"!important;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    text-decoration: inherit;
+    color: #fff;
+    font-size: 16px;
+    padding-right: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    left: 0;
+    line-height: 15px;
+}
+
+
+
+
+
+body.xs-order-sec-cntlr .xs-back-btn-area{
+	display: block;
+}
+
+body.xs-order-sec-cntlr .main-banner,
+body.xs-order-sec-cntlr .cleaning-convenient-sec,
+body.xs-order-sec-cntlr .save-time-section,
+body.xs-order-sec-cntlr .unbeatable-competition-section,
+body.xs-order-sec-cntlr .competitors-section,
+body.xs-order-sec-cntlr .germs-section,
+body.xs-order-sec-cntlr .offer-sologan-bar,
+body.xs-order-sec-cntlr .xs-order-now-btn-sec{
+	display: none!important;
+}
 
 
 @media(max-width: 1499px){
