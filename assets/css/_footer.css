@@ -39,6 +39,9 @@ footer.footer-wrp{
 	font-size: 12px;
 	line-height: 14px;
 }
+.ftr-nav-row ul li a:hover{
+	color: #ddd;
+}
 
 .copyright{
 	font-size: 12px;
