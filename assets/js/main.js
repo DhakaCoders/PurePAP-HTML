@@ -60,7 +60,7 @@ if($('.scroll').length){
 
 }
 
-if( $('.order-con-btn').length ){
+if( $('.home .order-con-btn').length ){
   $(".order-con-btn").click(function(e) {
       e.preventDefault();
       $('html, body').animate({

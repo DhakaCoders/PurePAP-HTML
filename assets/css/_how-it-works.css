@@ -6,7 +6,7 @@
 .pp-how-it-work-des-right{
 	float: right;
 	width: 40%;
-	margin-top: -90px;
+	margin-top: 0;
     padding-left: 15px;
 }
 
@@ -85,7 +85,9 @@
 	.how-it-work-ctlr .cr-offer-lft-tp strong sup {
 	    left: 0px;
 	}
-	
+	.pp-how-it-work-des-left{
+		padding-bottom: 30px;
+	}
 }
 
 @media(max-width: 767px){
