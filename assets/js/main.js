@@ -59,16 +59,9 @@ $('.faq-accoordion-wrp').on('click', '.faq-accoordion-cp', function() {
     $(this).closest('.faq-accoordion').find('.ac-box-title').stop().slideToggle();
 });
 
-
-/**
-Responsive on 767px
-*/
-
-// if (windowWidth <= 767) {
-
-
-
-// }
+$('#differentShippingAddress').on('change', function(){
+  
+});
 
 
 })(jQuery);
