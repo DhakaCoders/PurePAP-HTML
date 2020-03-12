@@ -40,13 +40,6 @@
 	font-family: 'arial', sans-serif;
 	text-decoration: underline;
 }
-.pp-site-map-ctlr .cr-offer-lft-tp strong sup {
-    left: 0px;
-}
-
-
-
-
 
 @media(max-width: 991px){
 	.hide-md{

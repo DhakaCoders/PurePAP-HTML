@@ -50,12 +50,6 @@
 .pp-how-it-work-vdo iframe{
 	width: 100%;
 }
-.how-it-work-ctlr .cr-offer-lft-tp strong sup {
-    left: 0px;
-}
-
-
-
 
 @media(max-width: 991px){
 	.hide-md{
@@ -81,9 +75,6 @@
 		max-width: 582px;
 	    width: 100%;
 	    margin: 0 auto;
-	}
-	.how-it-work-ctlr .cr-offer-lft-tp strong sup {
-	    left: 0px;
 	}
 	.pp-how-it-work-des-left{
 		padding-bottom: 30px;

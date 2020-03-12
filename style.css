@@ -12,6 +12,15 @@ Text Domain: clipfresh
 */
 
 @import url('assets/css/main.css');
+.showCart section,
+.showCart .orderCart .offer-sologan-bar{
+	display: none!important;
+}
+.showCart .orderCart,
+.showCart .orderCart section,
+.showCart .orderCart .xs-back-btn-area{
+	display: block!important;
+}
 @media(max-width: 991px){
 	.sidebar-mobile{
 		display: block!important;

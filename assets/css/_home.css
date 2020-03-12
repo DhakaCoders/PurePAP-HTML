@@ -274,6 +274,7 @@
 .germs-lft-des{
 	width: 50%;
 	padding-right: 10px;
+	float: left;
 }
 .germs-lft-des .width-at-50{
 	padding-left: 3px;
@@ -1215,8 +1216,11 @@ a.what-is-cvv2{
 
 .secure-checkout-img{
 	text-align: center;
-    padding-top: 20px;
+    padding-top: 0;
     padding-bottom: 10px;
+}
+.secure-checkout-img img{
+	max-width: 220px;
 }
 .secure-checkout-img div span{
 	text-transform: uppercase;
@@ -1303,6 +1307,11 @@ body.xs-order-sec-cntlr .xs-order-now-btn-sec{
 .dffshippingAddress{
 	display: none;
 }
+
+.palm-img{
+	width: 50%;
+	float: right;
+}
 @media(max-width: 1499px){
 
 }
@@ -1323,7 +1332,6 @@ body.xs-order-sec-cntlr .xs-order-now-btn-sec{
 		max-width: 100%;
 	}
 	.germs-lft-des {
-	    width: 100%;
 	    padding-right: 0;
 	    padding-top: 20px;
 	}
@@ -1416,6 +1424,13 @@ body.xs-order-sec-cntlr .xs-order-now-btn-sec{
 	.save-time-vdo{
 		margin-bottom: 20px;
 	}
+	.germs-lft-des,
+	.palm-img{
+		width: 100%;
+	}
+	.palm-img img{
+		margin-right: -15px;
+	}
 
 	
 }
@@ -1434,7 +1449,7 @@ body.xs-order-sec-cntlr .xs-order-now-btn-sec{
 		display: block;
 	}
 	.logo a{
-		max-width: 300px;
+		max-width: 250px;
 		margin-left: auto;
 		margin-right: auto;
 		display: table;
@@ -1466,7 +1481,7 @@ body.xs-order-sec-cntlr .xs-order-now-btn-sec{
 	    -webkit-transform: translateY(-50%);
 	}
 	.humberger-menu-btn strong{
-		padding-bottom: 10px;
+		padding-bottom: 5px;
 		font-size: 10px;
 		line-height: 12px;
 		text-transform: uppercase;
@@ -1475,12 +1490,12 @@ body.xs-order-sec-cntlr .xs-order-now-btn-sec{
 		padding-top: 0;
 		padding-left: 0;
 	}
-	.humberger-menu-btn-lines{
-		width: 33px;
-		position: relative;
-		height: 20px;
-		margin-right: 0;
-		margin-left: auto;
+	.humberger-menu-btn-lines {
+	    width: 34px;
+	    position: relative;
+	    height: 20px;
+	    margin-right: 0;
+	    margin-left: 0;
 	}
 	.humberger-menu-btn-lines span{
 		position: absolute;
@@ -1532,24 +1547,27 @@ body.xs-order-sec-cntlr .xs-order-now-btn-sec{
 		display: none;
 	}
 	.hdr-navbar-inr{
-		height: 70px;
+		height: 60px;
 	}
 	.hdr-navbar-inr .show-sm{
 		justify-content: flex-end;
 	}
 	a.hdr-order-btn {
-	    width: 104px;
-	    height: 61px;
+	    width: 160px;
+	    height: 42px;
 	    border: none;
 	    border-radius: 8px;
-	    font-size: 17px;
-	    line-height: 17px;
+	    font-size: 15px;
+	    line-height: 16px;
 	}
 	nav.main-nav > ul > li{
 		display: block;
 	}
 	a.hdr-order-btn span{
 		border: 1px solid #ccc;
+	}
+	a.hdr-order-btn span br{
+		display: none;
 	}
 	.save-time-sec-des h3 span{
 		font-size: 26px;
@@ -1636,8 +1654,15 @@ body.xs-order-sec-cntlr .xs-order-now-btn-sec{
 	.orderTop{
 		padding-top: 30px;
 	}
+	.orderTop img,
+	.banner-mobile img{
+		width: 100%;
+	}
 	.order-details-section{
 		padding-top: 20px;
+	}
+	#offers{
+		display: none;
 	}
 }
 
