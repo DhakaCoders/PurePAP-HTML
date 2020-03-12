@@ -55,54 +55,11 @@
 }
 
 
-.pp-instr-des{
-	padding-bottom: 15px;
-}
-.pp-instr-des-inr{
-	padding-right: 50px;
-}
-.pp-instr-des-inr h4{
-	font-size: 23px;
-	margin-bottom: 10px;
-	font-family: 'arial', sans-serif;
-	font-weight: 600;
-	text-transform: uppercase;
-}
-.pp-instr-des-inr strong{
-	font-size: 18px;
-	font-family: 'arial', sans-serif;
-	font-weight: 700;
-}
-
-.pp-instr-img-sec{
-	margin-bottom: 10px;
-}
-.pp-instr-img-sec-inr{
-	max-width: 700px;
-	width: 100%;
-	margin: 0 auto;
-}
 
 
-.pp-instr-list-item-inr{
-	padding: 30px 30px 30px 25px;
-	border: 1px solid #000;
-	border-radius: 25px;
-	max-width: 930px;
-    width: 100%;
-    margin: 0 auto;
-}
-.pp-instr-list-item-inr ul li{
-	padding-left: 25px;
-	padding-bottom: 10px;
-	font-family: 'arial',sans-serif;
-	font-weight: 700;
-	background: url('../images/pp-instr-list-item.png');
-	background-size: 18px 20px;
-	background-position: 0 2px;
-	background-repeat: no-repeat;
-	font-size: 18px;
-}
+
+
+
 
 .pp-instr-faq-sec{
 	margin-top: 10px;
@@ -122,19 +79,6 @@
 	font-weight: 600;
 	text-transform: uppercase;
 	margin-bottom: 15px;
-}
-.pp-instr-faq-des{
-	padding-bottom: 15px;
-}
-.pp-instr-faq-des strong{
-	font-weight: 700;
-	font-family: 'arial', sans-serif;
-	font-size: 18px;
-}
-.pp-instr-faq-des span{
-	display: block;
-	font-family: 'arial', sans-serif;
-	font-size: 18px;
 }
 
 .pp-instr-faq-link{
@@ -164,8 +108,105 @@
 	background: #066b6f;
 }
 
+.instruction-page-con-wrap{
+	padding-top: 50px;
+}
 
+.instruction-page-con{
+	max-width: 570px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.instruction-con-module-1 h1{
+	margin-bottom: 10px;
+}
+.instruction-con-module-1 strong{
+	margin-bottom: 50px;
+	display: block;
+}
+.ins-mark-heading{
+	margin-bottom: 15px;
+}
+.ins-mark-heading h4{
+	display: inline-block;
+	vertical-align: baseline;
+	margin: 0;
+	padding: 10px;
+	background: #333;
+	color: #fff;
+}
+.instruction-con-module-1{
+	padding-bottom: 50px;
+}
+.i-2,
+.i-3{
+	padding-top: 10px;
+}
+.imodule-step-heaidng{
+	padding: 10px 20px;
+	background: #333;
+	color: #fff;
+	text-align: left;
+}
+.imodule-step-heaidng p{
+	margin-bottom: 0;
+}
 
+.i-img-des-module{
+	display: flex;
+	align-items: center;
+}
+.i-img-des-module-img,
+.i-img-des-module-des{
+	width: 50%;
+}
+.i-img-des-module-des{
+	padding-left: 15px;
+	text-align: left;
+}
+.instruction-con-module-2{
+	padding-bottom: 40px;
+}
+.imodule-step-heaidng{
+	margin-bottom: 15px;
+}
+.i-img-des-module{
+	padding-bottom: 20px;
+}
+.i-img-des-module.i-img-des-module-2 .i-img-des-module-img{
+	order: 2;
+}
+.i-img-des-module.i-img-des-module-2  .i-img-des-module-des{
+	order: 1;
+	padding-left: 0;
+	padding-right: 15px;
+}
+.gap-20{
+	height: 20px;
+}
+
+.i-border-box{
+	border: 2px solid #ccc;
+	margin-bottom: 20px;
+}
+.i-border-box{
+	padding: 20px 20px 10px 20px;
+}
+.i-center-lft-con{
+	max-width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.i-p-mb-none p{
+	margin-bottom: 10px;
+}
+.font-italic{
+	font-style: italic;
+}
+.mb-15{
+	margin-bottom: 5px;
+	display: block;
+}
 
 @media(max-width: 1199px){
 	.hide-lg{
@@ -174,47 +215,15 @@
 	.show-lg{
 		display: block!important;
 	}
-	.pp-instr-des-inr {
-	    padding-right: 40px;
-	}
 
 }
 
 @media(max-width: 991px){
-	.hide-md{
-		display: none!important;
-	}
-	.show-md{
-		display: block!important;
-	}
-	.pp-instr-des-inr h4 {
-	    font-size: 20px;
-	}
-	.pp-instr-des-inr strong {
-	    font-size: 18px;
-	    line-height: 22px;
-	}
-	.pp-instr-list-item-inr ul li {
-	    font-size: 17px;
-	    line-height: 22px;
-	}
-	.pp-instr-faq-des strong {
-	    font-size: 17px;
-	}
-	.pp-instr-faq-des span {
-	    font-size: 17px;
-	    line-height: 22px;
-	}
+
 	
 }
 
 @media(max-width: 767px){
-	.hide-sm{
-		display: none!important;
-	}
-	.show-sm{
-		display: block!important;
-	}
 	.pp-instr-brdcmb-inner h2 {
 	    font-size: 25px;
 	    margin-bottom: 12px;
@@ -231,38 +240,12 @@
 	.pp-instr-brdcmb-inner ul li:last-child a i {
 	    top: 7px;
 	}
-	.pp-instr-des-inr {
-	    padding-right: 25px;
-	    padding-top: 15px;
-	}
-	.pp-instr-des-inr h4 {
-	    font-size: 18px;
-	}
-	.pp-instr-des-inr strong {
-	    font-size: 16px;
-	    line-height: 20px;
-	}
-	.pp-instr-list-item-inr {
-	    padding: 25px 25px 25px 25px;
-	}
-	.pp-instr-list-item-inr ul li {
-	    font-size: 15px;
-	    line-height: 20px;
-	}
 	.pp-instr-faq-inr {
 	    padding: 20px 25px 30px 25px;
 	}
 	.pp-instr-faq-inr h2 {
 	    font-size: 22px;
 	    margin-bottom: 10px;
-	}
-	.pp-instr-faq-des strong {
-	    font-size: 16px;
-	    line-height: 22px;
-	}
-	.pp-instr-faq-des span {
-	    font-size: 17px;
-	    line-height: 22px;
 	}
 	.pp-instr-faq-link a {
 	    font-size: 16px;
@@ -275,6 +258,7 @@
 	.pp-instr-faq-sec {
 	    margin-bottom: 40px;
 	}
+	
 }
 
 @media(max-width: 575px){
@@ -288,40 +272,12 @@
 	    font-size: 22px;
 	    margin-bottom: 10px;
 	}
-	.pp-instr-des-inr {
-	    padding-right: 15px;
-	}
-	.pp-instr-des-inr h4 {
-	    font-size: 15px;
-	}
-	.pp-instr-des-inr strong {
-	    font-size: 15px;
-	    line-height: 18px;
-	}
-	.pp-instr-list-item-inr {
-	    padding: 20px 20px 20px 20px;
-	}
-	.pp-instr-list-item-inr ul li {
-	    font-size: 15px;
-	    line-height: 20px;
-	}
 	.pp-instr-faq-inr {
 	    padding: 20px 20px 25px 20px;
 	}
 	.pp-instr-faq-inr h2 {
 	    font-size: 20px;
 	    margin-bottom: 10px;
-	}
-	.pp-instr-faq-des {
-	    padding-bottom: 10px;
-	}
-	.pp-instr-faq-des strong {
-	    font-size: 15px;
-	    line-height: 20px;
-	}
-	.pp-instr-faq-des span {
-	    font-size: 15px;
-	    line-height: 20px;
 	}
 	.pp-instr-faq-link a {
 	    font-size: 15px;
@@ -337,17 +293,27 @@
 	.pp-instr-brdcmb-inner ul li:first-child a i {
 	    top: 4px;
 	}
-
+	.text-left.i-2,
+	.text-right.i-3,
+	.i-img-des-module-img{
+		text-align: center!important;
+	}
+	.i-img-des-module{
+		display: block;
+		text-align: center;
+	}
+	.i-img-des-module-img{
+		width: 100%;
+		padding-bottom: 20px;
+	}
+	.i-img-des-module-des{
+		width: 100%;
+		padding-left: 0!important;
+		padding-right: 0!important;
+	}
 }
 
 @media(max-width: 479px){
-	.pp-instr-des-inr {
-	    padding-right: 10px;
-	}
-	.pp-instr-des-inr strong {
-	    font-size: 14px;
-	    line-height: 18px;
-	}
 	.pp-instr-faq-link button {
 	    padding: 10px 40px;
 	    font-size: 16px;
