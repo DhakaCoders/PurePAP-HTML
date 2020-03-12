@@ -1410,6 +1410,12 @@ body.xs-order-sec-cntlr .xs-order-now-btn-sec{
 		bottom: 3px;
 		top: auto;
 	}
+	.save-time-sec-des{
+		padding-top: 0;
+	}
+	.save-time-vdo{
+		margin-bottom: 20px;
+	}
 
 	
 }
