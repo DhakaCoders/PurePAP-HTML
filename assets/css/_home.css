@@ -76,14 +76,15 @@
     line-height: 40px;
     font-weight: 600;
     text-transform: uppercase;
-    padding-left: 68px;
+    padding-left: 80px;
     padding-bottom: 2px;
 }
 .bnr-offer-price{
-		font-family: "Helvetica";
+	font-family: "Helvetica";
+	padding-bottom: 15px;
 }
 .bnr-offer-price strong{
-	font-size: 80px;
+	font-size: 70px;
 	line-height: 82px;
 	position: relative;
 	font-weight: 600;
@@ -104,7 +105,7 @@
 	display: block;
 	font-size: 14px;
 	line-height: 16px;
-	padding-left: 74px;
+	padding-left: 135px;
 	padding-bottom: 10px;
 }
 
@@ -1020,7 +1021,7 @@ a.what-is-cvv2{
 	padding-left: 32px;
 	font-weight: normal;
 	cursor: pointer;
-	margin: 0;
+	margin: 2px 0 0;
 }
 
 .filter-check-row input[type="checkbox"],
@@ -1298,7 +1299,10 @@ body.xs-order-sec-cntlr .xs-order-now-btn-sec{
 	display: none!important;
 }
 
-
+.banner-mobile,
+.dffshippingAddress{
+	display: none;
+}
 @media(max-width: 1499px){
 
 }
@@ -1515,7 +1519,7 @@ body.xs-order-sec-cntlr .xs-order-now-btn-sec{
 		left: -15px;
 		right: -15px;
 		top: 100%;
-		background: rgba(0,106,182,.8);
+		background: rgba(0,106,182,0.9);
 		z-index: 50;
 		border-top: 1px solid #fff;
 		padding-bottom: 10px;
@@ -1617,6 +1621,18 @@ body.xs-order-sec-cntlr .xs-order-now-btn-sec{
 	.main-banner{
 		padding-bottom: 30px;
 	}
+	.main-banner{
+		display: none;
+	}
+	.banner-mobile{
+		display: block!important;
+	}
+	.orderTop{
+		padding-top: 30px;
+	}
+	.order-details-section{
+		padding-top: 20px;
+	}
 }
 
 
@@ -1711,6 +1727,9 @@ body.xs-order-sec-cntlr .xs-order-now-btn-sec{
 	}
 	.bnr-rgt-col div h2 {
 	    font-size: 27px;
+	}
+	a.add-to-cart-btn{
+		font-size: 18px;
 	}
 
 }

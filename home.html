@@ -72,26 +72,30 @@
 </header>
 
 <nav class="fp-nav show-sm">
-    <a href="#order" class="order-con-btn">
+    <a href="" class="order-con-btn">
       <span>Order<br>Now</span>
     </a>
-    <a href="#video">
+    <a class="goToVideo" href="">
       <span>Watch<br>The Show</span>
     </a>
-    <a href="#difference">
+    <a class="theDifference" href="">
       <span>See The<br>Difference</span>
     </a>
 </nav>
 
-<section class="main-banner sec-bg" data-src="assets/images/banner.jpg" style="background-image: url(assets/images/banner.jpg);">
+<section class="banner-mobile" style="display: none;">
+  <a class="xsOrdertoCart" href="#"><img src="assets/images/banner-mobile.jpg"></a>
+</section>
+
+<section class="main-banner sec-bg" data-src="assets/images/banner2.jpg" style="background-image: url(assets/images/banner2.jpg);">
   <div class="container">
       <div class="row">
         <div class="col-md-5">
           <div class="bnr-lft-col">
             <div class="bnr-offer-price">
               <span>only</span>
-              <strong><sup>$</sup>99.99</strong>
-              <small>+ $8.95 P&H</small>
+              <strong><sup>$</sup>249.96</strong>
+              <small>+ Free S&H</small>
             </div>
             <div class="bnr-btn">
               <a class="dft-btn order-con-btn" href="#"><span>order now</span></a>
@@ -149,7 +153,7 @@
       <div class="col-md-12">
         <div class="xs-order-now-btn-sec-inr">
           <div class="xs-order-now-btn">
-            <a href="#">
+            <a class="xsOrdertoCart" href="#">
               <i class="fas fa-shopping-cart"></i>
               <span>Order Now</span>
             </a>
@@ -259,7 +263,7 @@
             <h3>SAVE YOUR TIME <span>Only 30 Minutes To Sterilize</span></h3>
             <p>PurePAP<sup>™</sup> CPAP Sanitizer can produce activated oxygen quickly to reach every corner of your CPAP machine, tube and mask, killing 99% of germs and bacteria. Very safe and convenient, the optimized design enables faster generation of activated oxygen during start-up and faster dissipation after clean.</p>
             <div class="text-center">
-              <a class="dft-btn" href="#"><span>order now</span></a>
+              <a class="dft-btn xsOrdertoCart" href="#"><span>order now</span></a>
             </div>
           </div>
         </div>
@@ -363,11 +367,14 @@
           </div>
         </div>
         <div class="col-md-12">
-          <div class="competitors-sec-tbl text-center">
-            <img class="lazy" data-src="assets/images/table.png">
+          <div class="competitors-sec-tbl text-center hide-sm">
+            <img class="lazy" data-src="assets/images/table-desktop.jpg">
+          </div>
+          <div class="competitors-sec-tbl text-center show-sm">
+            <img class="lazy" data-src="assets/images/table-mobile.jpg">
           </div>
           <div class="text-center competitors-sec-btn">
-            <a class="dft-btn" href="#"><span>Click Here To Order Now</span></a>
+            <a class="dft-btn xsOrdertoCart" href="#"><span>Click Here To Order Now</span></a>
           </div>
         </div>
       </div>
@@ -403,92 +410,90 @@
   </div>    
 </section>
 
-<section class="offer-sologan-bar" id="select-order-sec">
-  <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h3>THIS OFFER IS NOT AVAILABLE IN STORES</h3>
-          <p>Fill Out The Form Below Or Call (888)511-1023 To Order Your <mark class="branding-txt">PurePAP<sup>™</sup></mark> Now!</p>
+<div class="orderCart" id="offers">
+  <section class="offer-sologan-bar" id="select-order-sec">
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h3>THIS OFFER IS NOT AVAILABLE IN STORES</h3>
+            <p>Fill Out The Form Below Or Call (888)511-1023 To Order Your <mark class="branding-txt">PurePAP<sup>™</sup></mark> Now!</p>
+          </div>
         </div>
-      </div>
-  </div>    
-</section>
-
-
-
-<section class="select-offer-boxs-section">
-  <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="select-offer-boxs-sec-con clearfix">
-            <div class="select-offer-boxs-sec-con-hdr">
-              <h5><strong>STEP 1:</strong> Select Your Offer</h5>
-            </div>
-            <div class="select-offer-boxs clearfix">
-              <div class="select-offer-box select-offer-box-1">
-                <div class="select-offer-box-lft">
-                  <div class="select-offer-box-outline">
-                    <div class="best-value-circle">
-                      <span>Best Value!</span>
-                    </div>
-                    <div class="option-title">
-                      <strong class="color-orange">Deluxe Upgrade</strong>
-                      <p>
-                        <mark class="color-orange">PurePAP<sup>™</sup></mark> 
-                        <span class="option-price">$10 MORE</span>
+    </div>    
+  </section>
+  <section class="select-offer-boxs-section">
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="select-offer-boxs-sec-con clearfix">
+              <div class="select-offer-boxs-sec-con-hdr">
+                <h5><strong>STEP 1:</strong> Select Your Offer</h5>
+              </div>
+              <div class="select-offer-boxs clearfix">
+                <div class="select-offer-box select-offer-box-1">
+                  <div class="select-offer-box-lft">
+                    <div class="select-offer-box-outline">
+                      <div class="best-value-circle">
+                        <span>Best Value!</span>
+                      </div>
+                      <div class="option-title">
+                        <strong class="color-orange">Trial Package</strong>
+                        <p>
+                          <mark class="color-orange">PurePAP<sup>™</sup></mark>
+                        </p>
+                      </div>
+                      <div class="product-img">
+                        <img class="lazy" data-src="assets/images/purepap-product.jpg">
+                      </div>
+                      <p class="option-info">
+                        <strong>Includes:</strong> 1 PAYMENT - $249.96 + Free Shipping (Waive Trial Fee and P&H)
                       </p>
-                    </div>
-                    <div class="product-img">
-                      <img class="lazy" data-src="assets/images/purepap-product.jpg">
-                    </div>
-                    <p class="option-info">
-                      <strong>Includes:</strong> 1 PAYMENT - $249.96 + Free Shipping (Waive Trial Fee and P&H)
-                    </p>
-                    <div class="action-btns">
-                      <a href="javascript:void(0);" data-code="CXM2" data-code-xor="C2" data-code-toggle="true" class="add-to-cart-btn" id="ga-link10">Add To Cart</a>
-                      <a href="javascript:void(0);" data-code="C2" data-code-xor="CXM2" data-code-toggle="true" class="add-to-cart-btn is-selected" id="ga-link11">Remove</a>
-                    </div>
+                      <div class="action-btns">
+                        <a href="javascript:void(0);" data-code="CXM2" data-code-xor="C2" data-code-toggle="true" class="add-to-cart-btn" id="ga-link10">Add To Cart</a>
+                        <a href="javascript:void(0);" data-code="C2" data-code-xor="CXM2" data-code-toggle="true" class="add-to-cart-btn is-selected" id="ga-link11">Remove</a>
+                      </div>
 
-                    <div class="modal fade vn-modal-con-wrap text-left" id="quickViewModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                      <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                          </button>
-                          <div id="wipe-details" class="hide">
-                            <h4><strong><mark class="branding-txt">PurePAP<sup>™</sup></mark> Cleaning Wipes</strong></h4>
-                            <ul class="ulc">
-                              <li>Removes dirt, oils and other residue from your mask and equipment that the cleaner may not get</li>
-                              <li>100% cotton</li>
-                              <li>No harmful chemicals or fragrances</li>
-                            </ul>
+                      <div class="modal fade vn-modal-con-wrap text-left" id="quickViewModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                            <div id="wipe-details" class="hide">
+                              <h4><strong><mark class="branding-txt">PurePAP<sup>™</sup></mark> Cleaning Wipes</strong></h4>
+                              <ul class="ulc">
+                                <li>Removes dirt, oils and other residue from your mask and equipment that the cleaner may not get</li>
+                                <li>100% cotton</li>
+                                <li>No harmful chemicals or fragrances</li>
+                              </ul>
+                            </div>
                           </div>
                         </div>
                       </div>
+
                     </div>
 
                   </div>
-
+                  <div class="or-wrapper show-md"><div class="or">OR</div></div>
                 </div>
-                <div class="or-wrapper show-md"><div class="or">OR</div></div>
-              </div>
-              <div class="or-wrapper hide-md"><div class="or">OR</div></div>
-              <div class="select-offer-box select-offer-box-2">
-                <div class="select-offer-box-rgt">
-                  <div class="select-offer-box-outline">
-                    <div class="option-title-2">
-                      <mark>PurePAP<sup>™</sup></mark> 
-                      <span class="option-price-2">$99.99<small> + $8.95 P&H</small></span>
-                    </div>
-                    <div class="product-img">
-                      <img class="lazy" data-src="assets/images/purepap-product.jpg">
-                    </div>
-                    <p class="option-info">
-                      <strong>Includes:</strong> 30 DAY TRIAL OFFER - $29.99 + $19.99 P&H, then 4 monthly payments of $59.99
-                    </p>
-                    <div class="action-btns">
-                      <a href="javascript:void(0);" data-code="CXM2" data-code-xor="C2" data-code-toggle="true" class="add-to-cart-btn" id="ga-link10">Add To Cart</a>
-                      <a href="javascript:void(0);" data-code="C2" data-code-xor="CXM2" data-code-toggle="true" class="add-to-cart-btn is-selected" id="ga-link11">Remove</a>
+                <div class="or-wrapper hide-md"><div class="or">OR</div></div>
+                <div class="select-offer-box select-offer-box-2">
+                  <div class="select-offer-box-rgt">
+                    <div class="select-offer-box-outline">
+                      <div class="option-title-2">
+                        <mark>PurePAP<sup>™</sup></mark> 
+                        <span class="option-price-2">$99.99<small> + $8.95 P&H</small></span>
+                      </div>
+                      <div class="product-img">
+                        <img class="lazy" data-src="assets/images/purepap-product.jpg">
+                      </div>
+                      <p class="option-info">
+                        <strong>Includes:</strong> 30 DAY TRIAL OFFER - $29.99 + $19.99 P&H, then 4 monthly payments of $59.99
+                      </p>
+                      <div class="action-btns">
+                        <a href="javascript:void(0);" data-code="CXM2" data-code-xor="C2" data-code-toggle="true" class="add-to-cart-btn" id="ga-link10">Add To Cart</a>
+                        <a href="javascript:void(0);" data-code="C2" data-code-xor="CXM2" data-code-toggle="true" class="add-to-cart-btn is-selected" id="ga-link11">Remove</a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -496,9 +501,9 @@
             </div>
           </div>
         </div>
-      </div>
-  </div>    
-</section>
+    </div>    
+  </section>
+</div>
 
 <section class="order-step-2-secion">
   <div class="container">
@@ -521,7 +526,7 @@
                   </div>
                   <div class="tbody">
                     <div class="tbody-row">
-                      <div class="tbody-td"><strong>Description :</strong> <span>CLEAN ZONE KIT</span></div>
+                      <div class="tbody-td"><strong>Description :</strong> <span>PurePAP KIT</span></div>
                       <div class="tbody-td">
                         <strong>Quantity :</strong>
                         <span>
@@ -815,10 +820,10 @@
             <div class="filter-check-row clearfix">
               <input type="checkbox" id="differentShippingAddress" name="shippingAddress" value="YES">
               <span class="checkmark"></span> 
-              <label for="shippingAddress">Check if your shipping address is different than billing.</label> 
+              <label for="differentShippingAddress">Check if your shipping address is different than billing.</label> 
             </div>
           </div>
-          <div class="order-step-5-box border-1px">
+          <div class="order-step-5-box border-1px dffshippingAddress">
             <div class="select-offer-boxs-sec-con-hdr">
               <h5><strong>STEP 5:</strong>  Enter Your Shipping Information
                 </h5>
@@ -958,7 +963,9 @@
   </div>    
 </section>
 
-
+<section class="banner-mobile orderTop" style="display: none;">
+  <img src="assets/images/banner-mobile.jpg">
+</section>
 
 <section class="order-details-section">
   <div class="container">
@@ -966,7 +973,7 @@
         <div class="col-md-12">
           <div class="order-details-sec-inr">
             <h6>OFFER DETAILS:</h6>
-            <p>When ordering today, you will receive a PurePAP(tm) CPAP cleaning machine, CPAP mask sanitizing bag set, 2 CPAP tube adapters for only $99.99 plus $8.95 p&h! That's a total of $108.94. Or you can purchase the deluxe option that includes CPAP Wipes for a total of $109.99 + $8.95 p&h. That's a grand total of $118.94 for the deluxe option.</p>
+            <p>When ordering today, you will receive a PurePAP(tm) CPAP cleaning machine, CPAP mask sanitizing bag set, 2 CPAP tube adapters for only $249.96 + Free Shipping! That's a total of $249.96. Or you can purchase the deluxe option that includes CPAP Wipes for a total of $109.99 + $8.95 p&h. That's a grand total of $118.94 for the deluxe option.</p>
             <p>Sales tax is collected in select states as required by law. 60-day money back guarantee less P&H. Continental U.S. orders only.</p>
             <p>By clicking the Process Now button you are placing a live order and agreeing to the terms of our 60-day money back guarantee and our <a id="" href="#" class="has-fancybox" data-toggle="modal" data-target="#aaquickViewModal">arbitration agreement</a>.</p>
           </div>

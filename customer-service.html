@@ -8,10 +8,6 @@
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
   <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome/font-awesome.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-  <link rel="stylesheet" type="text/css" href="assets/fancybox3/dist/jquery.fancybox.min.css">
-  <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick-theme.css">
-  <link rel="stylesheet" type="text/css" href="assets/slick.slider/slick.css">
   <link rel="stylesheet" type="text/css" href="assets/fonts/custom-fonts.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
@@ -69,14 +65,14 @@
       <div class="col-sm-12">
         <div class="pp-instr-brdcmb-inner">
           <h2>CUSTOMER SERVICE</h2>
-          <ul class="ulc hide-sm">
-            <li><a href="front-page.html"><i class="fas fa-long-arrow-alt-left"></i>Back to Home</a></li>
-            <li><a href="#">Order Now!<i class="fas fa-long-arrow-alt-down"></i></a></li>
-          </ul>
-          <div class="pp-instr-brdcmb-xs show-sm">
-            <a href="#"><span><i class="fa fa-home" aria-hidden="true"></i>Home Page</span></a>
-            <a href="#"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i>Order Now</span></a>
-          </div>
+            <ul class="ulc hide-sm">
+              <li><a href="home.html"><i class="fas fa-long-arrow-alt-left"></i>Back to Home</a></li>
+              <li><a href="home.html#offers">Order Now!<i class="fas fa-long-arrow-alt-down"></i></a></li>
+            </ul>
+            <div class="pp-instr-brdcmb-xs show-sm">
+              <a href="home.html"><span><i class="fa fa-home" aria-hidden="true"></i>Home Page</span></a>
+              <a href="home.html#offers"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i>Order Now</span></a>
+            </div>
         </div>
         </div>
       </div>
@@ -92,7 +88,10 @@
         <div class="col-sm-12">
           <div class="pp-cstmr-srvc-des-sec clearfix">
             <div class="pp-cstmr-srvc-des-right">
-              <div class="customer-review-offer-wrp clearfix">
+              <div class="sidebar-mobile" style="display: none;">
+                <a href="home.html#offers"><img src="assets/images/banner-mobile.jpg"></a>
+              </div>
+              <div class="sidebar-desktop customer-review-offer-wrp clearfix">
                 <div class="cr-offer-lft-tp-inr clearfix">
                   <div class="cr-offer-lft-tp">
                     <strong><span>Only</span><sup>$</sup>99.99</strong>
@@ -194,11 +193,7 @@
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/bootstrap-select.min.js"></script>
 <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-<script src="assets/fancybox3/dist/jquery.fancybox.min.js"></script>
-<script src="assets/slick.slider/slick.js"></script>
 <script src="assets/js/jquery.matchHeight-min.js"></script>
-<script src="assets/js/app.js"></script>
-<script src="assets/js/wow.min.js"></script>
 <script src="assets/js/lazyload.min.js"></script>
 <script src="assets/js/main.js"></script>
 <script type="text/javascript">window.onload = function() {var newd1 = new LazyLoad({elements_selector: ".lazy"});}</script>
