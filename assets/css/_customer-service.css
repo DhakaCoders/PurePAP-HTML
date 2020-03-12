@@ -91,11 +91,9 @@
 }
 
 @media(max-width: 767px){
-	.hide-sm{
-		display: none!important;
-	}
-	.show-sm{
-		display: block!important;
+	.pp-cstmr-srvc-des-left,
+	.pp-how-it-work-des-left{
+		padding-top: 30px;
 	}
 
 }
