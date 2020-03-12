@@ -312,6 +312,7 @@ customer-review-sec-wrp
 	    padding-bottom: 20px;
 	}
 	.customer-review-lft {
+		padding-top: 20px;
 	    width: 100%;
 	}
 	.customer-review-offer-wrp {
@@ -400,7 +401,7 @@ customer-review-sec-wrp
 		display: none;
 	}
 	.pp-instr-brdcmb-xs a{
-		font-size: 16px !important;
+		font-size: 15px !important;
 	}
 	.pp-instr-brdcmb-xs a span{
 	    padding-left: 30px;
