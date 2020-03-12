@@ -12,6 +12,7 @@ Text Domain: clipfresh
 */
 
 @import url('assets/css/main.css');
+
 @media(max-width: 991px){
 	.sidebar-mobile{
 		display: block!important;
