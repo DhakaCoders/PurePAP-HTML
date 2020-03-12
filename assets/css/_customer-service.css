@@ -87,16 +87,17 @@
 	    float: left;
 	    width: 100%;
 	}
+	.pp-cstmr-srvc-des-left,
+	.pp-how-it-work-des-left,
+	.pp-site-map-des-left,
+	.pp-site-map-des-left{
+		padding-top: 30px;
+	}
 	
 }
 
 @media(max-width: 767px){
-	.hide-sm{
-		display: none!important;
-	}
-	.show-sm{
-		display: block!important;
-	}
+
 
 }
 
