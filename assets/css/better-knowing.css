@@ -1,6 +1,7 @@
 
 .better-knowing-sec{
 	padding: 50px 0 30px;
+	display: block!important;
 }
 .better-knowing-sec-hdr{
 	text-align: center;
@@ -31,4 +32,26 @@
 	line-height: 27px;
 	margin-bottom: 0;
 	font-family: "Helvetica";
+}
+
+@media(max-width: 575px){
+	.better-knowing-sec-item{
+		text-align: center;
+	}
+	.btr-khowing-sec-fea-img{
+		position: static;
+		padding-bottom: 20px;
+		text-align: center;
+	}
+	.better-knowing-sec-item{
+		padding-left: 0;
+	}
+	.btr-khowing-sec-des p{
+		font-size: 18px;
+		line-height: 24px;
+	}
+	.btr-khowing-sec-des h4{
+		margin-bottom: 5px;
+	}
+
 }
