@@ -33,6 +33,38 @@
 	margin-bottom: 0;
 	font-family: "Helvetica";
 }
+.bnr-list{
+	position: absolute;
+	right: 15px;
+	bottom: 65px;
+}
+.bnr-list ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.bnr-list ul li{
+	text-transform: uppercase;
+	  font-weight: 700;
+	font-size: 22px;
+	position: relative;
+	color: #fff;
+	padding: 0 0 40px 25px;
+	text-shadow: 2px 2px 2px #242422;
+}
+
+.bnr-list ul li::before{
+	content: "\f0da"!important;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    text-decoration: inherit;
+    color: #fff;
+    font-size: 22px;
+    padding-right: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
 
 @media(max-width: 575px){
 	.better-knowing-sec-item{
